@@ -1,0 +1,17 @@
+type: Battery
+name: Glass batery
+description: Stores little power but still useful.
+health: 45
+size: 2
+squareSprite: false
+consumes: {
+  powerBuffered: 300
+}
+requirements: [
+Glass-pane/50
+Electric-circuit/1
+]
+category: power
+research: sulfer-genarator
+researchCostMultiplier: 0.1
+

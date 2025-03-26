@@ -1,0 +1,15 @@
+type: PowerNode
+name: Power conductor
+description: Connects power
+size: 1
+health: 90
+laserRange: 0
+maxNodes: 0
+requirements: [
+smelted-dulratite/1
+]
+category: power
+research: {
+  parent: sulfer-genarator
+}
+researchCostMultiplier: 0.1

@@ -1,0 +1,16 @@
+type: PowerNode
+name: Advantage power node 
+description: Connects power with range.
+size: 1
+health: 15
+laserRange: 9
+maxNodes: 20
+requirements: [
+Glass-pane/10
+Electric-circuit/1
+]
+category: power
+research: {
+  parent: sulfer-genarator
+}
+researchCostMultiplier: 0.1

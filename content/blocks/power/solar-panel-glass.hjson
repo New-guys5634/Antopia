@@ -1,0 +1,16 @@
+  type: SolarGenerator
+  powerProduction: 0.200
+name: Glass panel
+description: The most weakest panel of the entire of Antopia.
+size: 2
+health: 5
+category: power
+requirements: [
+smelted-dulratite/15
+Glass-pane/45
+Electric-circuit/1
+]
+research: {
+  parent: sulfer-genarator
+}
+researchCostMultiplier: 0.1

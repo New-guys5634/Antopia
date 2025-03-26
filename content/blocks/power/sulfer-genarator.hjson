@@ -1,0 +1,33 @@
+type: ConsumeGenerator
+name: Sulfer burned
+description: wip
+size: 1
+category: power
+squareSprite: true
+requirements: [
+smelted-dulratite/25
+clay-brick/25
+]
+consumes: {
+  itemFlammable: {}
+}
+powerProduction: 0.4
+itemDuration: 450
+generateEffect: generatespark
+ambientSound: smelter
+ambientSoundVolume: 0.1
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawCrucibleFlame
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+} 
+research: {
+  parent: core-colony
+}
+researchCostMultiplier: 0.1
