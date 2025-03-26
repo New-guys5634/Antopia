@@ -1,0 +1,26 @@
+name: Electric mender
+description: Restores health to blocks.
+category: effect
+type: MendProjector
+health: 110
+size: 1
+consumes: {
+power: 0.6
+}
+hasItems: false
+hasLiquids: false
+hasPower: true
+range: 25
+healPercent: 1
+reload: 200
+requirements: [
+Electric-circuit/1
+iseases-gem/15
+]
+research: {
+  parent: core-colony
+}
+researchCost: [
+Electric-circuit/2
+iseases-gem/20
+]
