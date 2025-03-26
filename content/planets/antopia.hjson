@@ -31,8 +31,6 @@ lighting: 88893F
 ambientLight: 88893F
 rotateTime: 5000
 orbitTime: 4000
-tidalLock: true
-waveTeam: crux
 fog: true
 lighting: true
 campaignRuleDefaults.fog: true
