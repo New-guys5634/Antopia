@@ -1,0 +1,30 @@
+type: HeatConductor
+name: Heat Distributor
+description: Transfers heat to other Heat Distributors or heat consumers. 
+size: 2
+category: distribution
+requirements: [
+smelted-dulratite/15
+Glass-pane/15
+]
+regionRotated1: 1
+research: {
+  parent: glass-hell-forge
+}
+researchCostMultiplier: 0.1
+regionRotated1: 1
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawHeatOutput
+    }
+    {
+      type: DrawHeatInput
+      suffix: -heat
+    }
+  ]
+}

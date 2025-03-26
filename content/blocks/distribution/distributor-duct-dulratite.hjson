@@ -1,0 +1,16 @@
+type: Router
+name: Big router
+description: same as router but bigger
+size: 2
+speed: 4
+health: 25
+itemCapacity: 5
+requirements: [
+smelted-dulratite/5
+]
+squareSprite: false
+category: distribution
+research: {
+  parent: dulratite-duct
+}
+researchCostMultiplier: 0.1

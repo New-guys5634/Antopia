@@ -1,0 +1,19 @@
+name: Dulratite electronic duct
+description: Antopias most annoying thing
+type: Duct
+  powerProduction: 0.0150
+consumes: {
+power: 0.03
+}
+health: 40
+speed: 8
+capacity: 1
+requirements: [
+smelted-dulratite/2
+Glass-pane/1
+] 
+category: distribution
+research: {
+  parent: core-colony
+}
+researchCostMultiplier: 0.1
