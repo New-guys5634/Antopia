@@ -1,0 +1,19 @@
+type: LiquidRouter
+name: Dulratite conduit router
+description: Splits liquids into three outputs.
+size: 1
+solid: false
+underBullets: true
+health: 45
+liquidCapacity: 20
+category: liquid
+squareSprite: false
+requirements: [
+smelted-dulratite/5
+Glass-pane/5
+]
+researchCostMultiplier: 1
+research: {
+  parent: gravity-liquid-junction
+}
+researchCostMultiplier: 0.1

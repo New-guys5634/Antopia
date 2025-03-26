@@ -1,0 +1,20 @@
+type: Conduit
+name: Gravity conduit
+description: Transports liquids.
+category: liquid
+requirements: [
+Glass-pane/4
+smelted-dulratite/2
+]
+health: 50
+leaks: true
+junctionReplacement: gravity-liquid-junction
+underBullets: true
+researchCostMultiplier: 1
+liquidPressure: 1.5
+liquidCapacity: 4
+research: {
+  parent: gravity-liquid-junction
+}
+researchCostMultiplier: 0.1
+

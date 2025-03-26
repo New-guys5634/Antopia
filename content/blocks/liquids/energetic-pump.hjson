@@ -1,0 +1,18 @@
+type: Pump
+name: enerpgitic pump
+description: pumps liquids.
+size: 2
+consumes: {
+power: 0.1
+}
+category: liquid
+requirements: [
+smelted-dulratite/40
+Glass-pane/50
+]
+pumpAmount: 0.02
+researchCostMultiplier: 1
+research: {
+  parent: dulratite-duct
+}
+researchCostMultiplier: 0.1

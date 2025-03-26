@@ -1,0 +1,21 @@
+type: HeatCrafter
+name: Aciac boiler
+description: READ THE MAME.
+size: 3
+heatRequirement: 2
+hasLiquids: true
+squareSprite: false
+liquidCapacity: 80
+outputLiquid: nitrogen/0.3
+consumes: {
+  liquid: acaic/0.1
+}
+category: liquid
+requirements: [
+smelted-dulratite/45
+Glass-pane/85
+]
+research: {
+  parent: gravity-liquid-junction
+}
+researchCostMultiplier: 0.1

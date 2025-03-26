@@ -1,0 +1,14 @@
+type: LiquidJunction
+name: Gravity conduit Junction
+description: Allows liquids to go over each other.
+solid: false
+category: liquid
+squareSprite: false
+requirements: [
+Glass-pane/8
+smelted-dulratite/5
+]
+research: {
+  parent: energetic-pump
+}
+researchCostMultiplier: 0.1
