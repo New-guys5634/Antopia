@@ -1,0 +1,70 @@
+name: Seargent
+type: legs
+health: 200
+armor: 1
+hitSize: 8
+speed: 0.9
+rotateSpeed: 2
+accel: 0.70
+itemCapacity: 50
+outlineColor: g00000
+buildSpeed: 1
+mineFloor: true
+mineWalls: true
+mineTier: 2
+mineSpeed: 6.30
+canBoost: false
+    legMoveSpace: 2
+    legMaxLength: 2
+    legMinLength: 1
+    legLengthScl: 2
+    legForwardScl: 1
+    legPhysicsLayer: true
+    legGroupSize: 2
+    legCount: 4
+    legExtension: 2
+    legContinuousMove: true
+    lockLegBase: false
+    rippleScale: 0.2
+ 	legBaseOffset: 0
+ 	legLength: 5
+    allowLegStep: false
+ 	hovering: false
+weapons: [
+{
+  name: WIP 
+  top: false
+  x: 0
+  y: 0
+  shootY: 2
+  shootX: 0
+  mirror: false
+  rotate: false
+  shootCone: 20
+  shootSound: shotgun
+  inaccuracy: 10
+  inaccuracy: 0
+  reload: 5
+  targetInterval: 1
+  targetSwitchInterval: 3
+  cooldownTime: 35 
+  shootStatus: unmoving
+  shootStatusDuration: 25
+  bullet: {
+   type: BasicBulletType
+   width: 9
+   height: 9
+   damage: 10
+   shootEffect: sparkShoot
+   trailInterval: 2
+   smokeEffect: shootBigSmoke
+   buildingDamageMultiplier: 0.0001
+   speed: 7
+   lifetime: 20
+   trailWidth: 1
+   trailLength: 8
+}
+}
+]
+
+

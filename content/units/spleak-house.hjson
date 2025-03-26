@@ -1,0 +1,85 @@
+template: ErekirUnitType
+type: mech
+name: Spleak
+description: Fires a laser type projectile.
+hovering: true
+hoverable: true
+shadowElevation: 0.1
+mechFrontSway: 0
+mechSideSway: 0
+mechStride: 0
+drag: 0.04
+outlineColor: 1f1f1f
+speed: 3.5
+rotateSpeed: 4
+accel: 0.014
+groundLayer: 60
+health: 200
+armor: 4
+hitSize: 8
+itemCapacity: 40
+useEngineElevation: false
+lowAltitude: true
+trailLength: 6 
+engines: [
+  {
+    x: 0
+    y: -8
+    radius: 1.5
+  }
+]
+parts: [
+  {
+    type: HoverPart
+    color: FFB570FF
+    radius: 13
+    sides: 8
+    layerOffset: -0.0002
+    x: 0
+    y: 0
+    phase: 140
+  }
+]
+abilities: [
+  {
+    type: MoveEffectAbility
+    teamColor: true
+    effect: missileTrailShort
+    x: 0
+    y: -5
+    interval: 5
+    minVelocity: 0.8
+  }
+]
+weapons: [
+ {
+  name: spleak-house-gun
+  top: false
+  x: 0
+  y: 0
+  shootY: 0
+  shootX: 0
+  layerOffset: 1.000
+  mirror: true
+  rotate: false
+  alternate: true
+  shootCone: 10
+  shootSound: laser
+  inaccuracy: 0
+  reload: 200
+  shootShake: 4
+  targetInterval: 1
+  targetSwitchInterval: 3
+  cooldownTime: 35
+  bullet: {
+  type: LaserBulletType
+  colors: [092922, 1f1f1f, 092922]
+  lightningColor: 092922
+  length: 100
+  width: 25
+  damage: 40
+   }
+  }
+]
+research: Flamelow-imsizer
+researchCostMultiplier: 0.1
