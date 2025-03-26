@@ -1,0 +1,16 @@
+localizedName: The final straw
+description: "The enemy is now fed up with your presence. They now reek to destroy you. A undetected [lime]DG-16 [white]recruit camp, miltary base. As well as economic colonys. Eradicate the enemy miltary base and establish a new well run colony."
+difficulty: 3
+planet: antopia
+sector: 49
+overrideLaunchDefaults: true
+addStartingItems: true
+research: {
+  parent: second sector
+  objectives: [
+    {
+      type: SectorComplete
+      preset: second sector
+    }
+  ]
+}

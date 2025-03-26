@@ -1,0 +1,12 @@
+localizedName: Beginning of the end
+description: "the first arrival. Begin your empire and drain the resources from this region. Enemy presence is detected by our scouts. But dont be worryied 
+the enemy is econimical colonys and no military bases are around. Begin the tour of the planet and establish the first colony."
+sector: 19
+planet: antopia
+alwaysUnlocked: true
+research: {
+   parent: core-colony
+}
+alwaysUnlocked: true
+difficulty: 1
+overrideLaunchDefaults: true

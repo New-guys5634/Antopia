@@ -1,0 +1,17 @@
+localizedName: The first retaliation
+description: "After the colony devastation the enemy sent the [green]DG-14 [white] and[green] DG-17 [white]platoons to destroy you and try rebuild the region. Prevent that by making Tanks and Begining turret manufacturing."
+captureWave: 5
+difficulty: 1
+planet: antopia
+sector: 196
+overrideLaunchDefaults: true
+addStartingItems: true
+research: {
+  parent: first sector
+  objectives: [
+    {
+      type: SectorComplete
+      preset: first sector
+    }
+  ]
+}
