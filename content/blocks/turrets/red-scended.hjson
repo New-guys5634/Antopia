@@ -1,0 +1,45 @@
+description: WIP
+name: red scended
+type: ItemTurret
+reload: 90
+shootCone: 20
+rotateSpeed: 3.5
+targetGround: true
+targetAir: true
+range: 285
+recoil: 2.5
+size: 2
+health: 390
+shootSound: missileLarge
+outlineColor: 000000FF
+consumes: {
+  power: 0.6
+liquid: nitrogen/0.5
+}
+shoot: {
+type: ShootSpread
+  spread: 2
+    shots: 4
+}
+ammoTypes: {
+   bullets: {
+        damage: 80
+       speed: 8
+        height: 6
+        width: 6
+        lifetime: 36
+}
+}
+requirements: [
+vision-sensors/2
+Electric-circuit/1
+gear/5
+clay-brick/50
+Glass-pane/150
+]
+category: turret
+research: {
+  parent: impulse-shotgun
+}
+researchCostMultiplier: 0.1
+
