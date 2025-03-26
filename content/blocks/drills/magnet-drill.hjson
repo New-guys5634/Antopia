@@ -1,0 +1,23 @@
+type: Drill
+drillTime: 350
+name: Magnet punatic drill
+description: wip
+size: 3
+category: production
+hasLiquids: true
+liquidCapacity: 50
+drawMineItem: false
+consumes: {
+  liquid: nitrogen/0.6
+}
+hasPower: false
+tier: 3
+itemCapacity: 15
+requirements: [
+smelted-dulratite/50
+gear/15
+]
+research: {
+  parent: core-colony
+}
+researchCostMultiplier: 0.1
