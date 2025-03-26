@@ -1,0 +1,21 @@
+name: morale low
+speedMultiplier: 0.90
+reloadMultiplier: 0.90
+damageMultiplier: 0.90
+healthMultiplier: 0.90
+effect : {
+    type : MultiEffect
+    effects : [
+        {
+            particles : 2
+            colorFrom : EDF3A9
+            sizeFrom : 2
+            lifetime : 70
+            colorTo : EDF3A9
+            sizeTo : 0
+            length : 4
+            type : ParticleEffect
+            cone : 280
+}
+]
+}

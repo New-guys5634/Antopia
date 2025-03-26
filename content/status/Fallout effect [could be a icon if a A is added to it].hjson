@@ -1,0 +1,20 @@
+name: FALLOUT
+speedMultiplier: 0.8
+reloadMultiplier: 0.6
+damageMultiplier: 0.7
+effect : {
+    type : MultiEffect
+    effects : [
+        {
+            particles : 5
+            colorFrom : 090987FF
+            sizeFrom : 2
+            lifetime : 25
+            colorTo : 090987FF
+            sizeTo : 0
+            length : 4
+            type : ParticleEffect
+            cone : 260
+}
+]
+}
