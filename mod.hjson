@@ -1,0 +1,21 @@
+name: "delight"
+description: 
+''' 
+THE LAST INSTALLMENT to the lore of the crux
+
+The new revelation is here. kearth is lost... no way we are getting it back.
+the conquest has started. Tensions blew and his leading sergeant of the crux empire places (you) as field commander of this bloody war.
+Antopia the once lush planet filled with life. killed my explanation of resources and manipulated landscapes.
+during the first war, the soil was manipulated for chemical warfare, forests were burned where burned where enemies were held and mountains were blown up to stop enemy advance. Life could not keep up and fizzled and... turned into the fallout...
+requires multi craft lib
+credits: 
+beee, DID ALL OT THE CODE LIKE EVERYTHING 
+XB5611, made all maps and some minor spriting.
+xb5611 also ATE MY PENUT BUTTER LIKE 7 JARS SCREW YOU!!!!!!
+'''
+author: "Rustedbeee and logic xb5611"
+minGameVersion: 145
+version: "0.1 alfa"
+displayName: "Mission: Antopia"
+subtitle: "rather be drinking coke"
+dependencies: [multi-crafter]
