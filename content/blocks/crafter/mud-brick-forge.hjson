@@ -1,0 +1,49 @@
+description: Dries mud bricks from mud and sulfur.
+name: Mud brick drier
+type: GenericCrafter
+size: 2
+health: 310
+craftTime: 250
+hasItems: true
+hasLiquids: false
+hasPower: false
+itemCapacity: 20
+consumes: {
+  items: {
+    items: [
+mud/2
+sulfur/1
+    ]
+  }
+}
+requirements: [
+mud/90
+]
+category: crafting
+outputItem: clay-brick/1
+research: na
+researchCost: [
+mud/100
+]
+generateEffect: generatespark
+ambientSound: smelter
+ambientSoundVolume: 0.1
+research: {
+  parent: core-colony
+}
+researchCostMultiplier: 0.1
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawCrucibleFlame
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+description: WIP
+name: Dulratite furnace
+type: GenericCrafter
+size: 3
+health: 300
+craftTime: 500
+hasItems: true
+hasLiquids: false
+hasPower: false
+itemCapacity: 20
+consumes: {
+  items: {
+    items: [
+dulratite/4
+sulfur/1
+    ]
+  }
+}
+requirements: [
+clay-brick/50
+]
+category: crafting
+outputItem: smelted-dulratite/1
+research: na
+craftEffect: {
+  type: ParticleEffect
+  amount: 8
+  effect: {
+    type: ParticleEffect
+    particles: 12
+        useRotation: false
+    length: 8
+    lifetime: 60
+        baseLength: 2.5
+    cone: 90
+    useRotation: false
+    sizeFrom: 2
+    sizeTo: 0.1
+    colorFrom: e2d8ac
+    colorTo: ffffff00
+    interp: pow2
+    sizeInterp: pow3In
+  }
+}
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawCrucibleFlame
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}
+research: {
+  parent: mud-brick-forge
+}
+researchCostMultiplier: 0.1
+

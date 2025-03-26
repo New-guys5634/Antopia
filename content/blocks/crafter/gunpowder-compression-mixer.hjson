@@ -1,0 +1,72 @@
+name: gunpowder compression
+type: GenericCrafter
+size: 3
+health: 300
+craftTime: 750
+hasItems: true
+hasLiquids: false
+hasPower: false
+itemCapacity: 20
+consumes: {
+liquid: nitrogen/0.05
+  items: {
+    items: [
+sulfur/8
+mud/16
+    ]
+  }
+}
+requirements: [
+Glass-pane/45
+smelted-dulratite/15
+]
+category: crafting
+outputItem: gunpowder/5
+research: na
+craftEffect: {
+  type: ParticleEffect
+  amount: 8
+  effect: {
+    type: ParticleEffect
+    particles: 12
+        useRotation: false
+    length: 8
+    lifetime: 60
+        baseLength: 2.5
+    cone: 90
+    useRotation: false
+    sizeFrom: 2
+    sizeTo: 0.1
+    colorFrom: e2d8ac
+    colorTo: ffffff00
+    interp: pow2
+    sizeInterp: pow3In
+  }
+}
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawRegion
+      suffix: -top
+    }
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawRegion
+      suffix: -spinner
+      spinSprite: true
+      rotateSpeed: 9
+    }
+  ]
+}
+research: {
+  parent: Dulratite-furnace
+}
+researchCostMultiplier: 0.1
+

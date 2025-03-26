@@ -1,0 +1,41 @@
+type: HeatProducer
+name: Electric heater maker
+description: WIP
+size: 2
+consumes: {
+power: 0.5
+}
+category: crafting
+requirements: [
+smelted-dulratite/125
+Glass-pane/75
+]
+heatOutput: 2
+generateEffect: none
+research: {
+  parent: glass-hell-forge
+}
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawHeatInput
+      heatColor: 641616B3
+    }
+  {
+      type: DrawHeatOutput
+    }
+    {
+      type: DrawHeatInput
+      suffix: -heat
+    }
+  ]
+}
+researchCostMultiplier: 0.1
