@@ -1,0 +1,65 @@
+name: Air turbine 
+type: ConsumeGenerator
+size: 3
+health: 10
+hasItems: false
+hasLiquids: true
+hasPower: true
+consumes: {
+liquid: nitrogen/0.07
+}
+powerProduction: 0.6
+requirements: [
+Glass-pane/55
+smelted-dulratite/30
+gear/5
+]
+category: power
+research: na
+craftEffect: {
+  type: ParticleEffect
+  amount: 8
+  effect: {
+    type: ParticleEffect
+    particles: 12
+        useRotation: false
+    length: 8
+    lifetime: 60
+        baseLength: 2.5
+    cone: 90
+    useRotation: false
+    sizeFrom: 2
+    sizeTo: 0.1
+    colorFrom: e2d8ac
+    colorTo: ffffff00
+    interp: pow2
+    sizeInterp: pow3In
+  }
+}
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawRegion
+      suffix: -top
+    }
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawRegion
+      suffix: -spinner
+      spinSprite: true
+      rotateSpeed: 9
+    }
+  ]
+}
+research: {
+  parent: Dulratite-furnace
+}
+researchCostMultiplier: 0.1
+
