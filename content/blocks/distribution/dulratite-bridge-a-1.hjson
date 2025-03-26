@@ -1,0 +1,18 @@
+ type: ItemBridge
+  name: Smelted dulratite bridge
+  description: Used as a transport over walls.
+  health: 15
+  range: 2
+  transportTime: 1
+  hasPower: false
+consumes: {
+power: 0.03
+}
+requirements: [
+smelted-dulratite/15
+] 
+category: distribution
+research: dulratite-duct
+researchCost: [
+smelted-dulratite/45
+  ]
