@@ -10,7 +10,7 @@ range: 285
 recoil: 2.5
 size: 2
 health: 390
-shootSound: shotgun
+shootSound: shoot
 outlineColor: 000000FF
 consumes: {
   power: 0.6
@@ -23,6 +23,10 @@ ammoTypes: {
         height: 6
         width: 6
         lifetime: 36
+   trailWidth: 2
+   trailLength: 8 
+ trailEffect: disperseTrail
+ trailInterval: 3
 }
 }
 requirements: [
