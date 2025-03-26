@@ -8,7 +8,7 @@ hasLiquids: true
 liquidCapacity: 50
 drawMineItem: false
 consumes: {
-  liquid: nitrogen/0.6
+  liquid: nitrogen/0.3
 }
 hasPower: false
 tier: 3
