@@ -1,0 +1,45 @@
+description: Separates mud from iseas gem.
+name: Mud separator
+type: HeatCrafter
+heatRequirement: 6
+size: 2
+health: 300
+craftTime: 500
+hasItems: true
+hasLiquids: false
+hasPower: false
+itemCapacity: 15
+consumes: {
+  items: {
+    items: [
+lump-mud/2
+    ]
+  }
+}
+requirements: [
+smelted-dulratite/300
+]
+category: crafting
+outputItem: iseases-gem/1
+generateEffect: generatespark
+ambientSound: smelter
+ambientSoundVolume: 0.1
+research: {
+  parent: core-colony
+}
+researchCostMultiplier: 0.1
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawCrucibleFlame
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}
