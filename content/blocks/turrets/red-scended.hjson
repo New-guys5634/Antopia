@@ -16,7 +16,6 @@ consumes: {
   power: 0.6
 liquid: nitrogen/0.5
 }
-shoot: {
 ammoTypes: {
    bullets: {
         damage: 80
