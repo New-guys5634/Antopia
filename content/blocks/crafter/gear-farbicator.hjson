@@ -18,7 +18,7 @@ dulratite/2
   }
 }
 requirements: [
-smelted-dulratite/55
+smelted-dulratite/33
 ]
 category: crafting
 outputItem: gear/3
