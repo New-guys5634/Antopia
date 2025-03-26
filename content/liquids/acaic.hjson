@@ -1,0 +1,7 @@
+name: acaic
+description: WIP
+color: 00fa88
+barColor: 00fa88
+boilPoint: 0.8
+heatCapacity: 0.8
+gas: false

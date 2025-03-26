@@ -1,0 +1,8 @@
+name: namalskike
+description: WIP
+color: EDF3A9
+barColor: EDF3A9
+boilPoint: 50000
+heatCapacity: 0.001
+gas: false
+coolant: false

@@ -1,0 +1,8 @@
+name: melted Galluim
+description: WIP
+color: 313131
+barColor: 313131
+boilPoint: 0.9
+heatCapacity: 1
+gas: false
+coolant: false
