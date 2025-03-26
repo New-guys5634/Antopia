@@ -17,10 +17,6 @@ consumes: {
 liquid: nitrogen/0.5
 }
 shoot: {
-type: ShootSpread
-  spread: 2
-    shots: 4
-}
 ammoTypes: {
    bullets: {
         damage: 80

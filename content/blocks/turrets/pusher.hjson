@@ -1,10 +1,10 @@
 description: WIP
 name: Pulsnin
 type: ItemTurret
-reload: 35
+reload: 5
 shootCone: 20
 rotateSpeed: 3.5
-targetGround: true
+targetGround: false
 targetAir: true
 range: 285
 recoil: 2.5
@@ -16,14 +16,9 @@ consumes: {
   power: 0.6
 liquid: nitrogen/0.2
 }
-shoot: {
-type: ShootSpread
-  spread: 2
-    shots: 4
-}
 ammoTypes: {
    bullets: {
-        damage: 45
+        damage: 15
        speed: 8
         height: 6
         width: 6
