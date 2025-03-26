@@ -1,0 +1,7 @@
+description: gear gear gear
+name: Gear 
+color: 88593F
+hardness: 2
+alwaysUnlocked: true
+hiddenOnPlanets: [serpulo, erekir]
+research: Glass-pane

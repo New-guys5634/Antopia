@@ -1,0 +1,7 @@
+description: WIP
+name: iseases-gem
+color: 231D1D
+hardness: 2
+alwaysUnlocked: true
+hiddenOnPlanets: [serpulo, erekir]
+research: lump-mud

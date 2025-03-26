@@ -1,0 +1,7 @@
+description: Mud the basic of the basic, many uses but not durable.
+name: Mud
+color: 88593F
+hardness: 1
+alwaysUnlocked: true
+hiddenOnPlanets: [serpulo, erekir]
+research: core-colony

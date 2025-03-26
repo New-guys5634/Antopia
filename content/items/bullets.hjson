@@ -1,0 +1,7 @@
+description: wip
+name: bullets
+color: 88593F
+hardness: 2
+alwaysUnlocked: true
+hiddenOnPlanets: [serpulo, erekir]
+research: dulratite

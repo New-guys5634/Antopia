@@ -1,0 +1,7 @@
+description: Clay brick is very hard to craft, made from clay and mud.
+name: Clay Brick
+color: 88593F
+hardness: 2
+alwaysUnlocked: true
+hiddenOnPlanets: [serpulo, erekir]
+research: mud

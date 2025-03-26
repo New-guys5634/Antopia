@@ -1,0 +1,7 @@
+description: WIP
+name: Glass-pane
+color: 231D1D
+hardness: 2
+alwaysUnlocked: true
+hiddenOnPlanets: [serpulo, erekir]
+research: smelted-dulratite

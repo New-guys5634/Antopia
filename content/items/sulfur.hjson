@@ -1,0 +1,8 @@
+description: Sulfur is the most common ore on the planet.
+name: Sulfur 
+color: FFAF87FF
+hardness: 1
+flammability: 1.5
+alwaysUnlocked: true
+hiddenOnPlanets: [serpulo, erekir]
+research: mud

@@ -1,0 +1,7 @@
+description: Used for components such as buildings and units.
+name: Electric circuit 
+color: 231D1D
+hardness: 2
+alwaysUnlocked: true
+hiddenOnPlanets: [serpulo, erekir]
+research: gear

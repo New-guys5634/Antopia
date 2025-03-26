@@ -1,0 +1,7 @@
+description: The Smelted version of dulratite.
+name: Smelted dulratite 
+color: 88593F
+hardness: 1
+alwaysUnlocked: true
+hiddenOnPlanets: [serpulo, erekir]
+research: dulratite

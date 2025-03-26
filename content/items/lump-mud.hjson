@@ -1,0 +1,7 @@
+description: Clay is found on the common lush planet (Sulifite) most common tile.
+name: Clay
+color: 88593F
+hardness: 1
+alwaysUnlocked: true
+hiddenOnPlanets: [serpulo, erekir]
+research: sulfur
