@@ -1,31 +1,32 @@
-name: Flame low unit bay
+name: Spleak unit bay
 description: WIP
 type: UnitFactory
 category: units
 size: 3
 configurable: true
 consumes: {
-  power: 2
-liquid: nitrogen/0.4
+  power: 3.5
+liquid: nitrogen/0.8
 }
 plans: [
-  {
-    unit: Flamelow-me-a-1
+{
+    unit: spleak-house
     time: 2000
     requirements: [
-    smelted-dulratite/50
-    gear/30
-    Glass-pane/25
+    gear/20
+    Glass-pane/50
+    iseases-gem/15
     vision-sensors/1
     Electric-circuit/1
-    ]
-  }
+   ]
+}
 ]
 requirements: [
-smelted-dulratite/45
-Glass-pane/100
+smelted-dulratite/200
+Glass-pane/260
+gear/45
 ]
 research: {
-  parent: core-colony
+  parent: Flamelow-imsizer
 }
 researchCostMultiplier: 0.1
