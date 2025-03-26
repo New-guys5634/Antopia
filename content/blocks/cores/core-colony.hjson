@@ -1,0 +1,21 @@
+type: CoreBlock
+name: Core: colony 
+description: The heart of the core once lost the sector is dead.
+requirements: [
+Glass-pane/500
+dulratite/1000
+]
+size: 2
+squareSprite: false
+unitType: core-a-1-field-commander
+health: 2000
+itemCapacity: 4000
+unitCapModifier: 5
+category: effect
+alwaysUnlocked: true
+research: {
+  planet: antopia
+  root: true
+  name: Antopia
+  requiresUnlock: false
+}
