@@ -1,5 +1,5 @@
 type: ConsumeGenerator
-name: Sulfer burned
+name: Sulfer burner
 description: wip
 size: 1
 category: power
@@ -17,8 +17,13 @@ generateEffect: generatespark
 ambientSound: smelter
 ambientSoundVolume: 0.1
 drawer: {
+drawer: {
   type: DrawMulti
   drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
     {
       type: DrawCrucibleFlame
     }
@@ -26,7 +31,7 @@ drawer: {
       type: DrawDefault
     }
   ]
-} 
+}
 research: {
   parent: core-colony
 }
