@@ -1,0 +1,13 @@
+name: Large mud brick wall
+description: Deffends structures.
+type: Wall
+health: 1200
+size: 2
+requirements: [
+    clay-brick/24
+]
+category: defense
+research: {
+  parent: mud-wall
+}
+researchCostMultiplier: 0.1

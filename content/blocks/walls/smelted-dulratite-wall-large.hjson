@@ -1,0 +1,14 @@
+name: Smelted dulratite wall
+description: deffends 
+type: Wall
+health: 3600
+armor: 1
+size: 2
+requirements: [
+    smelted-dulratite/40
+]
+category: defense
+research: {
+  parent: smelted-dulratite-wall
+}
+researchCostMultiplier: 0.1

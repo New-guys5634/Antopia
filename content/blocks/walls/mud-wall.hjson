@@ -1,0 +1,14 @@
+name: small mud brick wall.
+description: deffends structurea
+type: Wall
+health: 300
+armor: 1
+size: 1
+requirements: [
+    clay-brick/6
+]
+category: defense
+research: {
+  parent: core-colony
+}
+researchCostMultiplier: 0.1
