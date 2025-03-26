@@ -1,5 +1,5 @@
-description: Clay is found on the common lush planet (Sulifite) most common tile.
-name: Clay
+description: Lump of mud contains mud and iseas gem.
+name: Lump of mud
 color: 88593F
 hardness: 1
 alwaysUnlocked: true
