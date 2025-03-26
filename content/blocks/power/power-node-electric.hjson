@@ -9,6 +9,8 @@ requirements: [
 Glass-pane/10
 Electric-circuit/1
 ]
+  laserColor1: FFFFFF
+  laserColor2: FFFFFF
 category: power
 research: {
   parent: sulfer-genarator
