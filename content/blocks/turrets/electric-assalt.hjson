@@ -1,0 +1,51 @@
+description: Requiers electricity to fire a powerful energy ball knocking and dealing high damage, beware that the projectiles hit environment walls.
+name: Electric assault 
+type: ItemTurret
+reload: 25
+shootCone: 20
+rotateSpeed: 3.5
+targetGround: true
+targetAir: false
+range: 235
+recoil: 2.5
+size: 2
+health: 390
+shootSound: laser
+outlineColor: 000000FF
+consumes: {
+  power: 0.9
+liquid: nitrogen/0.2
+coolant: {
+  type: ConsumeCoolant
+  allowGas: true
+  allowLiquid: true
+  amount: 0.2
+}
+}
+ammoTypes: {
+   bullets: {
+        damage: 45
+        speed: 7
+        height: 6
+        width: 6
+        lifetime: 35
+   trailWidth: 2
+   trailLength: 8
+  frontColor: BFECFFFF
+   backColor: BFECFFFF
+   trailColor: BFECFFFF
+        knockback: 12
+      collidesAir: false
+      collidesGround: true
+      collideTerrain: true
+}
+}
+requirements: [
+vision-sensors/1
+clay-brick/50
+smelted-dulratite/100
+]
+category: turret
+researchCostMultiplier: 1
+
+

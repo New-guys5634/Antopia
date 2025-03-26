@@ -1,0 +1,46 @@
+description: Requiers electricity to fire a powerful laser piercing multiple enemies at once.
+name: Electric assault 
+type: PowerTurret
+reload: 90
+shootCone: 20
+rotateSpeed: 3.5
+targetGround: true
+targetAir: false
+range: 235
+recoil: 2.5
+size: 2
+health: 390
+shootSound: laser
+outlineColor: 000000FF
+consumes: {
+  power: 5
+coolant: {
+  type: ConsumeCoolant
+  allowGas: true
+  allowLiquid: true
+  amount: 0.2
+}
+}
+shootType: {
+  type: LaserBulletType
+  colors: [712755, 52736G, 99618G]
+  lightningColor: 52736G
+  length: 235
+  width: 15
+  damage: 65
+  buildingDamageMultiplier: 0.5
+}
+requirements: [
+Electric-circuit/2
+Galluim/95
+Glass-pane/235
+smelted-dulratite/15
+vision-sensors/4
+]
+category: turret
+research: {
+  parent: impulse-shotgun
+}
+researchCostMultiplier: 0.1
+
+
