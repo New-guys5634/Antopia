@@ -1,0 +1,122 @@
+localizedName: Antopia
+generator: SerpuloPlanetGenerator
+parent: sun 
+iconColor: 88593F
+orbitRadius: 35
+hasAtmosphere: true
+updateLighting: true
+allowLaunchSchematics: false
+allowLaunchToNumbered: false
+allowLaunchLoadout: false
+allowSectorInvasion: false
+atmosphereRadIn: 0
+atmosphereRadOut: 0.3
+atmosphereColor: 88593F
+drawOrbit: true
+accessible: true
+alwaysUnlocked: true
+defaultCore: core-colony
+sectorSeed: 0
+startSector: 19
+sectorSize: 3
+clearSectorOnLose: true
+allowSectorInvasion: false
+allowLaunchToNumbered: false
+allowWaveSimulation: true
+clearSectorOnLose: true
+allowWaves: true
+prebuildBase: false
+bloom: true
+lighting: 88893F
+ambientLight: 88893F
+rotateTime: 5000
+orbitTime: 4000
+tidalLock: true
+waveTeam: crux
+fog: true
+lighting: true
+campaignRuleDefaults.fog: true
+campaignRuleDefaults.showSpawns: true
+cloudMesh: [
+{
+    type: HexSkyMesh
+    planet: shards 
+    seed: 74
+    speed: 0.8
+    radius: 0.13
+    divisions: 6
+    color: 88893F
+    octaves: 3
+    persistence: 0.3
+    scl: 0.85
+    thresh: 0.4
+}
+{
+    type: HexSkyMesh
+    planet: shards 
+    seed: 64
+    speed: 0.2
+    radius: 0.13
+    divisions: 4
+    color: 88293F
+    octaves: 6
+    persistence: 0.2
+    scl: 0.85
+    thresh: 0.4
+}
+]
+mesh: [
+  {
+    type: NoiseMesh
+    planet: shards 
+    seed: 562697
+    color1: 88893F
+    color2: 231D1D
+  divisions: 5
+  radius: 0.800
+  octaves: 3
+  persistence: 1
+  scl: 0.72
+  mag: 1.4
+  }
+  { 
+  type: NoiseMesh
+  planet: shards
+  seed: 562697
+  color1: 88893F
+  color2: 231D1D
+  divisions: 5
+  radius: 0.875
+  octaves: 2
+  persistence: 1
+  scl: 0.72
+  mag: 1.4
+  }
+  {
+     type: NoiseMesh
+  planet: shards
+  seed: 756452
+  color1: 231D1D
+  color2:  88893F
+  divisions: 7
+  radius: 0.9
+  octaves: 9
+  persistence: 1
+  scl: 0.95
+  mag: 1.1
+  }
+  {
+     type: NoiseMesh
+  planet: shards
+  seed: 562697
+  color1: 88893F
+  color2: 231D1D
+  divisions: 5
+  radius: 0.875
+  octaves: 4
+  persistence: 1
+  scl: 0.72
+  mag: 1.4
+  }
+]
+launchCandidates: []
