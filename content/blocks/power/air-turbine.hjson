@@ -8,7 +8,7 @@ hasPower: true
 consumes: {
 liquid: nitrogen/0.07
 }
-powerProduction: 0.6
+powerProduction: 1
 requirements: [
 Glass-pane/55
 smelted-dulratite/30
@@ -54,7 +54,7 @@ drawer: {
       type: DrawRegion
       suffix: -spinner
       spinSprite: true
-      rotateSpeed: 9
+      rotateSpeed: 999
     }
   ]
 }
