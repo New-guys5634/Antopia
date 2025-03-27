@@ -3,7 +3,7 @@ name: acaic cetrifuge
 type: GenericCrafter
 size: 1
 health: 10
-craftTime: 900
+craftTime: 700
 hasItems: true
 hasLiquids: true
 hasPower: false
