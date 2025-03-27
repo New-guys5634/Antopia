@@ -1,0 +1,43 @@
+description: WIP
+name: acaic cetrifuge
+type: GenericCrafter
+size: 1
+health: 10
+craftTime: 900
+hasItems: true
+hasLiquids: true
+hasPower: false
+itemCapacity: 20
+consumes: {       
+liquid: acaic/3
+}
+requirements: [
+Glass-pane/200
+iseases-gem/15
+]
+category: crafting
+outputItem: bio-funges/1
+craftEffect: {
+  type: ParticleEffect
+  amount: 8
+  effect: {
+    type: ParticleEffect
+    particles: 12
+        useRotation: false
+    length: 8
+    lifetime: 60
+        baseLength: 2.5
+    cone: 90
+    useRotation: false
+    sizeFrom: 2
+    sizeTo: 0.1
+    colorFrom: e2d8ac
+    colorTo: ffffff00
+    interp: pow2
+    sizeInterp: pow3In
+  }
+}
+research: {
+  parent: Dulratite-furnace
+}
+researchCostMultiplier: 0.1
