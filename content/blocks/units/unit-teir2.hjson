@@ -1,0 +1,41 @@
+name: Dulratite reconstructor
+description: WIP
+type: Reconstructor
+size: 3
+health: 450
+category: units
+
+consumes: {
+  power: 1.2
+    items: {
+      items: [
+smelted-dulratite/45
+Glass-pane/90
+Electric-circuit/1
+vision-sensors/2
+iseases-gem/15
+      ]
+    }
+}
+upgrades: [
+  [spleak-house,spint]
+]
+constructTime: 2000
+
+requirements: [
+smelted-dulratite/90
+Glass-pane/180
+Electric-circuit/2
+vision-sensors/4
+iseases-gem/30
+]
+research: {
+    parent: Flamelow-imsizer
+} 
+researchCost: [
+smelted-dulratite/90
+Glass-pane/180
+Electric-circuit/2
+vision-sensors/4
+iseases-gem/40
+]
