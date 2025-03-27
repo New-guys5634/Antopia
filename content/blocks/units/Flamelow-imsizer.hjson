@@ -11,7 +11,7 @@ liquid: nitrogen/0.4
 plans: [
   {
     unit: Flamelow-me-a-1
-    time: 4000
+    time: 2001
     requirements: [
     smelted-dulratite/50
     gear/30
@@ -22,7 +22,7 @@ plans: [
   }
 {
     unit: Flamelow-me-a-2
-    time: 4000
+    time: 2200
     requirements: [
     smelted-dulratite/70
     gear/25
