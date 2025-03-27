@@ -1,0 +1,50 @@
+type: tank
+name: Flame high
+description: WIP
+omniMovement: false
+faceTarget: false
+speed: 0.5
+rotateSpeed: 2.7
+groundLayer: 60
+health: 300
+armor: 1
+hitSize: 10
+itemCapacity: 25
+treadRects: [
+{
+    x: -15
+    y: -25
+    width: 18
+    height: 51
+    }
+]
+weapons: [
+ {
+  name: Flamelow-me-a-2-gun
+  top: false
+  x: 0
+  y: 0
+  shootY: 0
+  shootX: 0
+  mirror: false
+  rotate: true
+  shootCone: 20
+  shootSound: shoot
+  inaccuracy: 4
+  reload: 8
+  targetInterval: 1
+  targetSwitchInterval: 3
+  cooldownTime: 35 
+  bullet: {
+  speed: 7
+  lifetime: 12
+  damage: 10
+  width: 5
+  length: 8
+  }
+  }
+]
+research: {
+  parent: Flamelow-imsizer
+}
+researchCostMultiplier: 0.1
