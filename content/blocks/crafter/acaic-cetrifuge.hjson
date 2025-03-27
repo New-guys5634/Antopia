@@ -9,7 +9,7 @@ hasLiquids: true
 hasPower: false
 itemCapacity: 20
 consumes: {       
-liquid: acaic/3
+liquid: acaic/0.6
 }
 requirements: [
 Glass-pane/200
