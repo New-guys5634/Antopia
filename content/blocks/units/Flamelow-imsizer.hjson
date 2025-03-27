@@ -11,11 +11,22 @@ liquid: nitrogen/0.4
 plans: [
   {
     unit: Flamelow-me-a-1
-    time: 2000
+    time: 4000
     requirements: [
     smelted-dulratite/50
     gear/30
     Glass-pane/25
+    vision-sensors/1
+    Electric-circuit/1
+    ]
+  }
+{
+    unit: Flamelow-me-a-1
+    time: 4000
+    requirements: [
+    smelted-dulratite/70
+    gear/25
+    Glass-pane/50
     vision-sensors/1
     Electric-circuit/1
     ]
