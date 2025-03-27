@@ -6,7 +6,7 @@ speed: 4
 health: 25
 itemCapacity: 5
 requirements: [
-smelted-dulratite/5
+smelted-dulratite/15
 ]
 squareSprite: false
 category: distribution
