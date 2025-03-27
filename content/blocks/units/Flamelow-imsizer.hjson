@@ -21,7 +21,7 @@ plans: [
     ]
   }
 {
-    unit: Flamelow-me-a-1
+    unit: Flamelow-me-a-2
     time: 4000
     requirements: [
     smelted-dulratite/70
