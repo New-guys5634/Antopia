@@ -3,19 +3,19 @@
   description: Explodes when steped on dealing low damage but appling the radiation effect.
   hasShadow: false
   health: 100
-  damage: 0
-  tileDamage: 5
-  length: 0
-  tendrils: 0
+  damage: 15
+  tileDamage: 25
+  length: 5
+  tendrils: 5
   category: effect
   research: core-colony
   bullet: {
     type: ExplosionBulletType
-    splashDamage: 0
-    splashDamageRadius: 0
+    splashDamage: 10
+    splashDamageRadius: 15
     killShooter: true
     status: radiation
-    statusDuration: 300
+    statusDuration: 450
   }
   requirements: [
 smelted-dulratite/15
