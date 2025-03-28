@@ -89,6 +89,7 @@ category: crafting
 requirements: [
 smelted-dulratite/90
 Glass-pane/45
+iseases-gem/45
 ]
 research: {
   parent: mud-brick-forge
