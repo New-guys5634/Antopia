@@ -1,0 +1,35 @@
+     name: Organic thing 
+    type: flying
+    lowAltitude: true
+    speed: 5
+    accel: 0.08
+    drag: 0.05
+    flying: true
+    health: 100
+    hitSize: 9
+    armor: 1
+    itemCapacity: 25
+    engineOffset: 7
+    faceTarget: true
+weapons: [
+  {
+    name: on-Unit
+    x: 4
+    y: 4
+    shootY: 5
+    shootX: 3
+    mirror: false
+    rotate: false 
+    layerOffset: -1
+    reload: 6
+    inaccuracy: 12
+    shootSound: missileLarge
+    bullet: {
+      speed: 6
+      lifetime: 35
+      damage: 4
+      width: 6
+      height: 10
+}
+}
+]
