@@ -1,5 +1,7 @@
 type: floor
 variants: 2
 decoration: fallout-boulder
-
+damageTaken: 100
+status: freezing
+statusDuration: 300
 
