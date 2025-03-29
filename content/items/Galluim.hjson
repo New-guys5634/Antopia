@@ -2,5 +2,4 @@ description: WIP
 name: Galluim
 color: 231D1D
 hardness: 2
-alwaysUnlocked: true
 hiddenOnPlanets: [serpulo, erekir]

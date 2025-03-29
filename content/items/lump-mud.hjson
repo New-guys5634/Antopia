@@ -1,7 +1,6 @@
-description: Lump of mud contains mud and iseas gem.
+description: A mixture of mud and iseases gem. fresh from the mine and ready for process. because it is not processed the negative charge makes it modratly explosive.
 name: Lump of mud
 color: 88593F
 hardness: 1
-alwaysUnlocked: true
 hiddenOnPlanets: [serpulo, erekir]
 research: sulfur

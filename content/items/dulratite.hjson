@@ -2,6 +2,5 @@ description: Dulratite is a hard crystal like object, use mud drills to mine.
 name: Dulratite 
 color: 231D1D
 hardness: 2
-alwaysUnlocked: true
 hiddenOnPlanets: [serpulo, erekir]
 research: clay-brick

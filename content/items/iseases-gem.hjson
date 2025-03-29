@@ -1,7 +1,6 @@
-description: WIP
+description: Iseases gem is a weak bio compound, only consisting as 3 protons per atom. It is a symbol of life before the fallout. it is a type of oil but was corroded by underground acaic and due to compression it has a negative charge but complete conductivity of electricity. It is a alloy of sought as in natraul activity its size can only reach 1.2 centimeters in lengh. and because it can only be found in corrosive bluestone he chances are even lower of reaching that size. so it will be separated from mud and anomlys and melted together.
 name: iseases-gem
 color: 231D1D
 hardness: 2
-alwaysUnlocked: true
 hiddenOnPlanets: [serpulo, erekir]
 research: lump-mud

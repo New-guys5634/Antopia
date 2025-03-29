@@ -2,6 +2,5 @@ description: Vision sensors are used for turrets or units so they can see.
 name: Vision sensors
 color: 00FF00
 hardness: 1
-alwaysUnlocked: true
 hiddenOnPlanets: [serpulo, erekir]
 research: gear

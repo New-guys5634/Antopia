@@ -3,6 +3,5 @@ name: Sulfur
 color: FFAF87FF
 hardness: 1
 flammability: 1.5
-alwaysUnlocked: true
 hiddenOnPlanets: [serpulo, erekir]
 research: mud

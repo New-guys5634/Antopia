@@ -2,6 +2,5 @@ description: WIP
 name: shotgun shells
 color: ffffff
 hardness: 1
-alwaysUnlocked: true
 hiddenOnPlanets: [serpulo, erekir]
 research: dulratite

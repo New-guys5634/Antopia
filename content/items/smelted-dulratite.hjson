@@ -2,6 +2,5 @@ description: "in a furnace nuclear fusion happens and melts the raw stone into a
 name: Smelted dulratite 
 color: 88593F
 hardness: 1
-alwaysUnlocked: true
 hiddenOnPlanets: [serpulo, erekir]
 research: dulratite

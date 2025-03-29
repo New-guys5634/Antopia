@@ -2,6 +2,5 @@ description: it takes mud and it is super heated by flame until the chemical com
 name: Clay Brick
 color: 88593F
 hardness: 2
-alwaysUnlocked: true
 hiddenOnPlanets: [serpulo, erekir]
 research: mud

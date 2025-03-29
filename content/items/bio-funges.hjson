@@ -1,8 +1,7 @@
 description: wip
 name: Bio fungus 
 color: 88593F
-flammability: 3
+flammability: 10
 hardness: 2
-alwaysUnlocked: true
 hiddenOnPlanets: [serpulo, erekir]
 research: dulratite
