@@ -36,8 +36,8 @@ weapons: [
   targetSwitchInterval: 3
   cooldownTime: 35 
   bullet: {
-  speed: 7
-  lifetime: 12
+  speed: 8
+  lifetime: 20
   damage: 10
   width: 5
   length: 8
