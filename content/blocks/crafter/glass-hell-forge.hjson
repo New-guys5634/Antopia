@@ -12,7 +12,7 @@ heatOutput: 1
 consumes: {
   items: {
     items: [
-mud/3
+mud/2
 sulfur/1
     ]
   }
@@ -21,7 +21,7 @@ requirements: [
 smelted-dulratite/25
 ]
 category: crafting
-outputItem: Glass-pane/2
+outputItem: Glass-pane/3
 research: na
 craftEffect: {
   type: ParticleEffect
