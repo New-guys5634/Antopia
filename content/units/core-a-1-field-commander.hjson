@@ -12,7 +12,7 @@ buildSpeed: 1
 mineFloor: true
 mineWalls: true
 mineTier: 2
-mineSpeed: 6.30
+mineSpeed: 8
 canBoost: false
     legMoveSpace: 2
     legMaxLength: 2

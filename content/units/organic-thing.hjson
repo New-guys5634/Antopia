@@ -14,10 +14,10 @@
 weapons: [
   {
     name: on-Unit
-    x: 4
-    y: 4
-    shootY: 5
-    shootX: 3
+    x: 0
+    y: 0
+    shootY: 0
+    shootX: 0
     mirror: false
     rotate: false 
     layerOffset: -1

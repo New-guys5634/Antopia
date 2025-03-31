@@ -14,7 +14,7 @@ speed: 3.5
 rotateSpeed: 4
 accel: 0.014
 groundLayer: 60
-health: 450
+health: 700
 armor: 4
 hitSize: 8
 itemCapacity: 40

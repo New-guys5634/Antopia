@@ -30,14 +30,14 @@ weapons: [
   rotate: true
   shootCone: 20
   shootSound: shoot
-  inaccuracy: 4
+  inaccuracy: 12
   reload: 8
   targetInterval: 1
   targetSwitchInterval: 3
   cooldownTime: 35 
   bullet: {
-  speed: 8
-  lifetime: 20
+  speed: 7
+  lifetime: 12
   damage: 10
   width: 5
   length: 8
