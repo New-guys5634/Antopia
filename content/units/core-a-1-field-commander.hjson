@@ -42,7 +42,7 @@ weapons: [
   rotate: false
   shootCone: 20
   shootSound: shotgun
-  inaccuracy: 18
+  inaccuracy: 22
   reload: 5
   targetInterval: 1
   targetSwitchInterval: 3
@@ -53,7 +53,9 @@ weapons: [
    type: BasicBulletType
    width: 9
    height: 9
-   damage: 10
+   damage: 4
+   homingPower: 0.04
+   homingRange: 100
    shootEffect: sparkShoot
    trailInterval: 2
    smokeEffect: shootBigSmoke
