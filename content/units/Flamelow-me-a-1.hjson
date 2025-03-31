@@ -10,6 +10,7 @@ health: 250
 armor: 1
 hitSize: 10
 itemCapacity: 25
+immunities: [burning, melting]
 treadRects: [
 {
     x: -15

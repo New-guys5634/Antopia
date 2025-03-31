@@ -42,8 +42,7 @@ weapons: [
   rotate: false
   shootCone: 20
   shootSound: shotgun
-  inaccuracy: 10
-  inaccuracy: 0
+  inaccuracy: 18
   reload: 5
   targetInterval: 1
   targetSwitchInterval: 3
