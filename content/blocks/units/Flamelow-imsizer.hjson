@@ -31,17 +31,6 @@ plans: [
     Electric-circuit/1
     ]
   }
-{
-unit: organic-thing
-    time: 1000
-    requirements: [
-    smelted-dulratite/5
-    sulfur/80
-    gear/10
-    vision-sensors/1
-    Electric-circuit/1
-  ]
- }
 ]
 
 requirements: [
