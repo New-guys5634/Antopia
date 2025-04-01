@@ -11,8 +11,7 @@ itemCapacity: 20
 consumes: {
   items: {
     items: [
-dulratite/1
-mud/1
+dulratite/2
 sulfur/1
     ]
   }
