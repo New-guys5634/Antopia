@@ -1,48 +1,24 @@
-type: multicraft.MultiCrafter
 name: bullet crafter
-description: uses gunpowder and dulratite to make projectiles and vision sensors
+type: GenericCrafter
+description: uses mixtures and dulratite to make projectiles and vision sensors
 size: 3
 health: 125
 hasLiquids: true
 squareSprite: false
 liquidCapacity: 80
 itemCapacity: 20
-recipes:
-[
-{
-  input: {
-         items: [
-        delight-gunpowder/2
-        delight-dulratite/1
-      ]
-fluids: [         
-  nitrogen/0.2
-       ]
-    }
-  output: {
-      items: [
-       delight-bullets/2
-      ]
+consumes: {
+  items: {
+    items: [
+mud/5
+smelted-dulratite/4
+sulfur/1
+    ]
   }
-  craftTime: 500
 }
-{
-  input: {
-         items: [
-        delight-gunpowder/2
-        delight-dulratite/1
-      ]
-fluids: [         
-  nitrogen/0.2
-       ]
-    }
-  output: {
-      items: [
-        delight-shotgun-shell/1
-      ]
-  }
-  craftTime: 500
-}
+outputItems: [
+bullets/1
+shotgun-shell/1
 ]
 craftEffect: {
   type: ParticleEffect

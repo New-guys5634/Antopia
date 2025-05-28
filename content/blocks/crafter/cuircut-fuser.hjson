@@ -1,4 +1,4 @@
-type: multicraft.MultiCrafter
+type: GenericCrafter
 name: Circuit crafter
 description: wip
 size: 2
@@ -7,42 +7,20 @@ hasLiquids: true
 squareSprite: false
 liquidCapacity: 80
 itemCapacity: 20
-recipes:
-[
-{
-  input: {
-         items: [
-       delight-dulratite/10
-      ]
-fluids: [         
-  nitrogen/0.3
-       ]
+consumes: {
+liquid: nitrogen/0.3
 power: 0.9
-    }
-  output: {
-      items: [
-        delight-vision-sensors/1
-      ]
+  items: {
+    items: [
+dulratite/10
+Glass-pane/5
+clay-brick/5
+    ]
   }
-  craftTime: 500
 }
-{
-  input: {
-         items: [
-       delight-dulratite/10
-      ]
-fluids: [         
-  nitrogen/0.5
-       ]
-power: 0.9
-    }
-  output: {
-      items: [
-        delight-Electric-circuit/1
-      ]
-  }
-  craftTime: 500
-}
+outputItems: [
+vision-sensors/1
+Electric-circuit/1
 ]
 craftEffect: {
   type: ParticleEffect
