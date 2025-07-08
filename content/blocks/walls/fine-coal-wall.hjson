@@ -1,0 +1,20 @@
+name: nail wall
+description: protects your buildings and units 
+type: Wall
+flashHit: true
+chanceDeflect: 15
+health: 1600
+size: 2
+category: defense
+requirements: [
+  nails/18
+  fine-iron/16
+  raw-coal/15
+]
+research: weak-wall
+parent: weak-wall
+researchCost: [
+   nails/70
+   fine-iron/40
+   raw-coal/40
+]

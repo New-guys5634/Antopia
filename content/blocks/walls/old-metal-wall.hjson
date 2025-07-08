@@ -1,0 +1,22 @@
+name: old metal wall
+description: protects your buildings and units 
+type: wall
+absorbLasers: true
+health: 540
+size: 1
+category: defense
+requirements: [
+  scrap/3
+  nails/2
+  metal/5
+]
+research: {
+     parent: scrap-lead-wall
+      objectives: [
+        {
+            type: OnSector
+            preset: abandoned metal lab 
+        }
+    ]
+ }
+parent: scrap-lead-wall

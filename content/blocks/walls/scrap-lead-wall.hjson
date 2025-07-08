@@ -1,0 +1,16 @@
+name: mix wall
+description: protects your buildings and units 
+type: Wall
+health: 960
+size: 2
+category: defense
+requirements: [
+  lead/18
+  scrap/16
+]
+research: weak-wall
+parent: weak-wall
+researchCost: [
+  lead/80
+  scrap/60
+]

@@ -1,0 +1,21 @@
+name: scraped wall
+description: protects your buildings and units 
+type: wall
+health: 310
+size: 1
+category: defense
+requirements: [
+  scrap/3
+]
+research: {
+     parent: T1-tower
+      objectives: [
+        {
+            type: OnSector
+            preset: mountianiac
+        }
+    ]
+ }
+alwaysunlock: true
+parent: T1-tower
+
