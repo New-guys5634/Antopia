@@ -1,0 +1,23 @@
+name: scrap junction
+description: moves items thought other conveyors
+type: Junction
+health: 50
+speed: 2
+capacity: 10
+requirements: [
+  lead/3
+  scrap/2
+] 
+research: {
+  parent: scarped-duct
+  objectives: [
+    {
+      type: OnSector
+      preset: compact-zone 
+    }
+  ]
+}
+researchCost: [
+  scrap/12
+]
+category: distribution

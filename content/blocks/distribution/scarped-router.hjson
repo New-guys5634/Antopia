@@ -1,0 +1,23 @@
+name: scrap router
+description: splits items
+type: Router
+health: 50
+speed: 2
+capacity: 10
+requirements: [
+  lead/2
+  scrap/2
+] 
+research: {
+  parent: scarped-duct
+  objectives: [
+    {
+      type: OnSector
+      preset: compact-zone 
+    }
+  ]
+}
+researchCost: [
+  scrap/5
+]
+category: distribution

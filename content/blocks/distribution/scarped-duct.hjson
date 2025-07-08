@@ -1,0 +1,25 @@
+name: scrap ducts
+description: transports item
+type: StackConveyor
+
+
+health: 25
+speed: 2
+capacity: 10
+requirements: [
+  scrap/2
+] 
+research: {
+  parent: main-core
+  objectives: [
+    {
+      type: OnSector
+      preset: compact-zone 
+    }
+  ]
+}
+researchCost: [
+  scrap/5
+]
+category: distribution
+
