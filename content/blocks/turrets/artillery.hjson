@@ -1,0 +1,60 @@
+description: a long range slow turret very strong against groups
+name: artillery turret
+type: ItemTurret
+square: false
+reload: 120
+shootCone: 20
+rotateSpeed: .5
+targetGround: true
+targetAir: false
+range: 360
+recoil: 6
+shootSound: shootSmite
+size: 2
+health: 275
+AmmoPerShot: 10
+shootShake: 1.5
+
+shoot: {
+    shots: 1
+    spread: 3
+    shotDelay: 3
+}
+
+ammoTypes: {
+    scrap: {
+        damage: 23.5
+        speed: 7
+        height: 25
+        width: 15
+        lifetime: 40
+        shots: 2
+        status: tarred
+        statusduration: 9
+    }
+    nails: {
+        damage: 45.5
+        speed: 5.5
+        height: 26
+        width: 16
+        lifetime: 40
+        status: spore-slowed
+        statusduration: 5
+    }
+}
+requirements: [
+    lead/25
+    metal/5
+    scrap/25
+    nails/10
+]
+category: turret
+parent: T1-anti-air-tower 
+research: T1-anti-air-tower 
+researchCost: [
+  nails/20
+  graphite/10
+  scrap/50
+  lead/50
+  research-plans/2
+]

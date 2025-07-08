@@ -1,0 +1,62 @@
+description: fires barrages at enemys 
+name: range gunner
+type: ItemTurret
+square: false
+reload: 30
+shootCone: 20
+rotateSpeed: 2
+targetGround: true
+targetAir: false
+range: 260
+recoil: 3
+shootSound: bolt
+size: 2
+health: 275
+AmmoPerShot: 10
+shootShake: 1.5
+
+shoot: {
+    shots: 5
+    spread: 60
+    shotDelay: 3
+}
+
+ammoTypes: {
+    nails: {
+        damage: 12.5
+        speed: 7
+        height: 8
+        width: 8
+        lifetime: 32
+        shots: 8
+        status: tarred
+        statusduration: 9
+    }
+    copper: {
+        damage: 8.5
+        speed: 6
+        height: 9
+        width: 9
+        lifetime: 28
+        shots: 6
+        status: spore-slowed
+        statusduration: 5
+    }
+}
+requirements: [
+    lead/25
+    metal/5
+    scrap/25
+    nails/10
+    copper/20
+]
+category: turret
+parent: T1-anti-air-tower 
+research: T1-anti-air-tower 
+researchCost: [
+  nails/20
+  graphite/10
+  scrap/50
+  lead/50
+  research-plans/3
+]

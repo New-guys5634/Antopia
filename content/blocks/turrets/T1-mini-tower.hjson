@@ -1,0 +1,96 @@
+name: T1 mini tower
+description: a basic tower that fires continuess bullets
+type: ItemTurret
+reload: 20
+shootCone: 20
+rotateSpeed: 2.1
+targetGround: true
+targetAir: true
+range: 140
+recoil: 1
+size: 1
+health: 190
+AmmoPerShot: 3
+shootSound: cannon
+shootShake: 2
+inaccuracy: 5
+
+
+
+drawer:{
+ type: DrawTurret
+ parts: [
+     {
+         "type": "RegionPart",
+          "suffix": "-part0",
+         "mirror": true,
+         outline: false
+        "progress": {
+          "type": "warmup",
+          "op": "blend",
+          "other": "heat",
+          "amount": 0.25
+          }
+          "outlineLayerOffset": 0.001,
+         "moveX": 1,
+         "moveY": 2,
+             layerOffset: 0.02
+         }
+]
+}
+
+
+shoot: {
+    shots: 4
+    spread: 14
+    shotDelay: 1
+}
+
+ammoTypes: {
+    hot-sand: {
+        damage: 12
+        speed: 6
+        height: 6
+        width: 6
+        lifetime: 23
+    }
+    lead: {
+        damage: 10
+        speed: 7
+        height: 7
+        width: 7
+        lifetime: 26
+    }
+    raw-sand: {
+        damage: 8
+        speed: 7
+        height: 5
+        width: 5
+         lifetime: 20
+     }
+    glass: {
+        damage: 6
+        speed: 7
+        height: 5
+        width: 4
+        lifetime: 19
+        status: explosive 
+        statusduration: 2
+      }
+}
+requirements: [
+    lead/10
+    nails/5
+    metal/7
+]
+
+research: {
+parent: T1-arcfry
+objectives: [
+      {
+         type: onSector
+         preset: lava deep ends
+      }
+   ]
+}
+category: turret

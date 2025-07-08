@@ -1,0 +1,92 @@
+name: T1 tower
+description: Fires spreads of bullets at enemys 
+type: ItemTurret
+reload: 80
+shootCone: 20
+rotateSpeed: 2.1
+targetGround: true
+targetAir: true
+range: 140
+recoil: 2.3
+size: 1.5
+
+drawer:{
+ type: DrawTurret
+ parts: [
+     {
+         "type": "RegionPart",
+          "suffix": "-part0",
+         "mirror": true,
+         outline: false
+        "progress": {
+          "type": "warmup",
+          "op": "blend",
+          "other": "heat",
+          "amount": 0.15
+          }
+          "outlineLayerOffset": 0.001,
+         "moveX": 1,
+         "moveY": 0,
+             layerOffset: 0.02
+         }
+]
+}
+health: 250
+AmmoPerShot: 3
+shootSound: shootAlt
+shootShake: 2
+inaccuracy: 5
+shoot: {
+    shots: 4
+    spread: 8
+    shotDelay: 1
+}
+
+ammoTypes: {
+    copper: {
+        damage: 5
+        speed: 6
+        height: 6
+        width: 6
+        lifetime: 36
+    }
+    nails: {
+        damage: 10
+        speed: 6
+        height: 7
+        width: 7
+        lifetime: 36
+    }
+    scrap: {
+        damage: 4
+        speed: 6
+        height: 3
+        width: 2
+         lifetime: 36
+     }
+    lead: {
+        damage: 6
+        speed: 6
+        height: 5
+        width: 4
+        lifetime: 36
+        status: burning 
+        statusduration: 18
+      }
+}
+requirements: [
+    lead/10
+    nails/2
+]
+
+research: {
+parent: main-core
+objectives: [
+      {
+         type: onSector
+         preset: compact-zone 
+      }
+   ]
+}
+category: turret
+alwaysUnlocked: true

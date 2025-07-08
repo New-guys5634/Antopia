@@ -1,0 +1,67 @@
+type: PowerTurret
+description: a teir2 turret that fires power bolts
+name: bolt luancher
+square: false
+health: 420
+size: 2
+type: PowerTurret
+requirements: [
+  lead/5
+  copper/5
+  scrap/20
+  nails/5
+]
+range: 190
+shootType: {
+  type: LightningBulletType
+  damage: 25
+  lightningLength: 26
+  lightningLengthRand: 0
+  lightningColor: ff0002
+  lightningType: {
+    width: 13
+    height: 14
+    speed: 2
+    damage: 25
+    hitEffect: hitBulletColor
+    despawnEffect: hitBulletColor
+    lifetime: 3
+    backColor: 11c4f5
+    frontColor: ffffff
+    status: burning 
+    }
+  statusDuration: 20
+}
+reload: 80
+shoot: {
+  type: ShootAlternate
+  spread: 2.75
+  shots: 1
+  shotDelay: 4
+  barrels: 2
+}
+shootCone: 60
+rotateSpeed: .8
+consumes: {
+power: 1
+coolant: {}
+}
+recoil: 3
+shootSound: light
+category: turret
+research: {
+  parent: T1-tower
+  objectives: [
+    {
+      type: OnSector
+      preset: mountianiac 
+    }
+  ]
+}
+researchCost: [
+  scrap/40
+  lead/10
+  nails/5
+  copper/10
+]
+

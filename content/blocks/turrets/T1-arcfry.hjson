@@ -1,0 +1,71 @@
+type: PowerTurret
+description: shocks units till death
+name: T1 arcfry
+square: false
+size: 1
+type: PowerTurret
+targetAir: false
+health: 230
+requirements: [
+  lead/5
+  copper/5
+  scrap/5
+  nails/8
+  stone/7
+]
+range: 110
+shootType: {
+  type: LightningBulletType
+  damage: 8
+  lightningLength: 16
+  lightningLengthRand: 2
+  lightningColor: 0000fa
+  lightningType: {
+    width: 9
+    height: 9
+    speed: 2
+    damage: 16
+    hitEffect: hitBulletColor
+    despawnEffect: hitBulletColor
+    lifetime: 3
+    backColor: 0000fa
+    frontColor: ffffff
+    status: electrified
+    }
+  statusDuration: 10
+}
+reload: 45
+shoot: {
+  type: ShootAlternate
+  spread: 2.75
+  shots: 1
+  shotDelay: 4
+  barrels: 2
+}
+shootCone: 60
+rotateSpeed: .8
+consumes: {
+power: 1
+coolant: {}
+}
+recoil: 3
+shootSound: light
+category: turret
+research: {
+  parent: T1-flame-tower
+  objectives: [
+    {
+      type: OnSector
+      preset: lava deep ends
+    }
+  ]
+}
+researchCost: [
+  scrap/30
+  lead/5
+  nails/5
+  copper/5
+  stone/10
+   research-plans/2
+]
+

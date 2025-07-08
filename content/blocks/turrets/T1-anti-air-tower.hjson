@@ -1,0 +1,77 @@
+name: T1 anti air rower
+description: the Anti air rower targets air
+type: ItemTurret
+reload: 40
+shootCone: 20
+rotateSpeed: 2
+targetGround: false
+targetAir: true
+range: 220
+recoil: 1.3
+size: 1
+health: 320
+AmmoPerShot: 2
+shootSound: orb
+shootShake: 4
+
+
+
+drawer:{
+ type: DrawTurret
+ parts: [
+     {
+         "type": "RegionPart",
+          "suffix": "-part0",
+         "mirror": true,
+         outline: false
+        "progress": {
+          "type": "warmup",
+          "op": "blend",
+          "other": "heat",
+          "amount": 0.15
+          }
+          "outlineLayerOffset": 0.001,
+         "moveX": 1,
+         "moveY": 1,
+             layerOffset: 0.02
+         }
+]
+}
+
+
+shoot: {
+    shots: 3
+    spread: 4
+    shotDelay: 4
+}
+
+ammoTypes: {
+    stone: {
+        damage: 8
+        speed: 5
+        height: 6
+        width: 6
+        lifetime: 42
+    }
+    nails: {
+        damage: 15
+        speed: 5
+        height: 7
+        width: 7
+        lifetime: 42
+    }
+
+}
+requirements: [
+    scrap/20
+    nails/5
+    stone/10
+]
+category: turret
+parent: T1-dammager 
+research: T1-dammager 
+researchcost: [
+    nails/20
+    stone/30
+    research-plans/1
+]

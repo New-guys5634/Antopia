@@ -1,0 +1,63 @@
+type: LiquidTurret
+name: liquid luancher
+description: fires liquids at enemys
+health: 120
+size: 1
+reload: 2
+inaccuracy: 6
+hasLiquids: true
+liquidCapacity: 20
+researchCostMultiplier: 0.5
+outlineColor: 42413e
+recoil: 1
+category: turret
+research: {
+   parent: T1-anti-air-tower 
+   objectives: [
+      {
+         type: OnSector
+         preset: lava shore
+      }
+   ]
+}
+range: 120
+requirements: [
+  lead/20
+  copper/20
+  nails/5
+  scrap/15
+  metal/20
+]
+ammoTypes: {
+  slag: {
+    despawnEffect: none
+    hitEffect: none
+    type: LiquidBulletType
+    liquid: slag
+    speed: 1.5
+    lifetime: 80
+    knockback: 1
+    status: burning 
+    statusDuration: 90
+    damage: 0.5
+    layer: 98
+  }
+  melted-iron: {
+    despawnEffect: none
+    hitEffect: none
+    type: LiquidBulletType
+    liquid: melted-iron 
+    speed: 1.5
+    lifetime: 80
+    knockback: 0.7
+    status: melting 
+    statusDuration: 70
+    damage: 2
+    layer: 98
+  }
+}
+drawer: {
+  type: DrawTurret
+  basePrefix: spiky-
+}
+squareSprite: false

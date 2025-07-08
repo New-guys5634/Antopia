@@ -1,0 +1,98 @@
+name: T1 power tower
+description: a basic tower used in mid game very strong 
+type: ItemTurret
+reload: 319
+shootCone: 20
+rotateSpeed: .7
+targetGround: true
+targetAir: false
+range: 210
+recoil: 2.3
+size: 1
+health: 310
+AmmoPerShot: 6
+shootSound: artillery 
+shootShake: 2
+inaccuracy: 5
+
+
+
+drawer:{
+ type: DrawTurret
+ parts: [
+     {
+         "type": "RegionPart",
+          "suffix": "-part0",
+         "mirror": true,
+         outline: false
+        "progress": {
+          "type": "warmup",
+          "op": "blend",
+          "other": "heat",
+          "amount": 0.15
+          }
+          "outlineLayerOffset": 0.003,
+         "moveX": 2,
+         "moveY": -1,
+             layerOffset: 0.02
+         }
+]
+}
+
+
+shoot: {
+    shots: 2
+    spread: 30
+    shotDelay: 1
+}
+
+ammoTypes: {
+    copper: {
+        damage: 12
+        speed: 4
+        height: 8
+        width: 8
+        lifetime: 50
+    }
+    nails: {
+        damage: 18
+        speed: 4
+        height: 9
+        width: 9
+        lifetime: 50
+    }
+    scrap: {
+        damage: 8
+        speed: 4
+        height: 8
+        width: 8
+         lifetime: 50
+     }
+    metal: {
+        damage: 21
+        speed: 4
+        height: 8
+        width: 8
+        lifetime: 50
+        status: burning 
+        statusduration: 18
+      }
+}
+requirements: [
+    lead/10
+    nails/10
+    scrap/10
+    copper/15
+]
+
+research: {
+parent: T1-liquid-luancher
+objectives: [
+      {
+         type: onSector
+         preset: compact-zone 
+      }
+   ]
+}
+category: turret
+researchCostMultiplier: 0.5

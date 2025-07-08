@@ -1,0 +1,64 @@
+name: T2 anti air blast
+description: fires barrages of bullets at flying enemies 
+type: ItemTurret
+reload: 25
+shootCone: 20
+rotateSpeed: .4
+targetGround: false
+targetAir: true
+range: 260
+recoil: 1.3
+size: 2
+health: 290
+AmmoPerShot: 3
+shootSound: missile 
+shootShake: 1
+inaccuracy: 7
+
+shoot: {
+    shots: 3
+    spread: 0
+    shotDelay: 3
+}
+
+ammoTypes: {
+    raw-sand: {
+        damage: 8
+        speed: 7
+        height: 10
+        width: 10
+        lifetime: 42
+        homing: true
+    }
+    sand: {
+        damage: 10
+        speed: 11
+        height: 11
+        width: 6
+        lifetime: 15
+        status: burning
+        statusduration: 75
+        homing: true
+    }
+}
+requirements: [
+    sand/15
+    metal/10
+    nails/10
+]
+category: turret
+research: {
+  parent: artillery
+  objectives: [
+    {
+      type: OnSector
+      preset: abandoned metal lab 
+    }
+  ]
+}
+researchCost: [
+  nails/5
+  metal/10
+  sand/10
+  research-plans/1
+]

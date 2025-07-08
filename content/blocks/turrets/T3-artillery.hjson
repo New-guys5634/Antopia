@@ -1,0 +1,82 @@
+name: T3 artillery
+description: an end game turret that fires long range bullets at the target 
+type: ItemTurret
+reload: 260
+shootCone: 20
+rotateSpeed: 1.1
+targetGround: true
+targetAir: false
+range: 320
+recoil: 3
+size: 3
+health: 600
+AmmoPerShot: 10
+shootSound: shootSmite 
+shootShake: 4
+inaccuracy: 0
+
+parts: [
+  {
+     type: RegionPart
+     suffix: -nub
+     mirror: true
+     under: false
+     progress: recoil 
+     moveY: -3
+    } 
+]
+shoot: {
+    shots: 4
+    spread: 12
+    shotDelay: 15
+}
+
+ammoTypes: {
+     steel: {
+        damage: 42.5
+        speed: 8
+        height: 8
+        width: 8
+        lifetime: 48
+    }
+    nails: {
+        damage: 27.5
+        speed: 7
+        height: 8
+        width: 8
+        lifetime: 42
+    }
+    scrap: {
+        damage: 31.5
+        speed: 7
+        height: 8
+        width: 8
+         lifetime: 42
+     }
+    stone: {
+        damage: 21.5
+        speed: 7
+        height: 7
+        width: 8
+        lifetime: 42
+      }
+}
+requirements: [
+    scrap/30
+    nails/15
+    metal/20
+    stone/20
+    graphite/10
+    raw-obsidian/2
+]
+
+research: {
+parent: blast
+objectives: [
+      {
+         type: onSector
+         preset: obsidian ruins 
+      }
+   ]
+}
+category: turret

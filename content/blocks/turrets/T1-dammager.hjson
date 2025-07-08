@@ -1,0 +1,78 @@
+name: T1 dammager
+description: the turret is a long ranged turret 
+type: ItemTurret
+reload: 160
+shootCone: 20
+rotateSpeed: 0.6
+targetGround: true
+targetAir: false
+range: 210
+recoil: 1.3
+size: 1
+health: 300
+AmmoPerShot: 2
+shootSound: bolt
+shootShake: 4
+
+
+drawer:{
+ type: DrawTurret
+ parts: [
+     {
+         "type": "RegionPart",
+          "suffix": "-part0",
+         "mirror": true,
+         outline: false
+        "progress": {
+          "type": "warmup",
+          "op": "blend",
+          "other": "heat",
+          "amount": 0.15
+          }
+          "outlineLayerOffset": 0.001,
+         "moveX": 1,
+         "moveY": 1,
+             layerOffset: 0.02
+         }
+]
+}
+
+
+
+shoot: {
+    shots: 3
+    spread: 8
+    shotDelay: 12
+    barrels: 3
+}
+
+ammoTypes: {
+    copper: {
+        damage: 12
+        speed: 5
+        height: 6
+        width: 6
+        lifetime: 40
+    }
+    nails: {
+        damage: 18
+        speed: 5
+        height: 6
+        width: 6
+        lifetime: 40
+    }
+
+}
+requirements: [
+    scrap/10
+    nails/5
+    copper/2
+]
+category: turret
+parent: T1-tower
+research: T1-tower
+researchcost: [
+    nails/4
+    copper/30
+    research-plans/1
+]

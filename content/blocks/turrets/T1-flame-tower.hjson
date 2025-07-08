@@ -1,0 +1,63 @@
+name: T1 flame
+description: fires flames
+type: ItemTurret
+size: 1
+square: false
+health: 240
+range: 90
+reload: 18
+recoil: 1
+targetAir: false
+shootSound: flame
+ammoTypes: {
+ coal : {
+    damage: 10
+    speed: 6
+    pierce: true
+    pierceBuilding: true
+    ammoMultiplier: 5
+    status: melting
+    makeFire: true
+    lifetime: 7
+    despawnEffect: none
+    width: 0.01
+    height: 0.01
+    smokeEffect: {
+      type: ParticleEffect
+      particles: 25
+      length: 80
+      lifetime: 12
+      interp: circleOut
+      cone: 3
+      colorFrom: ffdd55
+      colorTo: db401c
+      sizeFrom: 4
+      sizeTo: 0.6
+    }
+  }
+}
+category: turret
+requirements: [
+  nails/5
+  copper/15
+  lead/5
+  scrap/10
+  stone/5
+]
+research: {
+  parent: T1-dammager 
+  objectives: [
+    {
+      type: OnSector
+      preset: lava deep ends
+    }
+  ]
+}
+researchCost: [
+  stone/20
+  scrap/30
+  lead/40
+  copper/20
+  nails/10
+  research-plans/1
+]

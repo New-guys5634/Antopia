@@ -1,0 +1,65 @@
+name: freez turret
+description: fires freezing like flames at enemys 
+type: ItemTurret
+size: 2
+health: 480
+range: 112
+reload: 35
+rotatespeed: .9
+recoil: 4
+targetAir: false
+shootSound: flame
+hasPower: true
+ammoTypes: {
+  spore-pod: {
+    damage: 6
+    speed: 8
+    pierce: true
+    pierceBuilding: true
+    ammoMultiplier: 5
+    status: freezing
+    makeFire: false
+    lifetime: 18
+    despawnEffect: none
+    width: 0.01
+    height: 0.01
+    smokeEffect: {
+      type: ParticleEffect
+      particles: 25
+      length: 140
+      lifetime: 40
+      interp: circleOut
+      cone: 3
+      colorFm: c9fff3
+      colorTo: 57ffdb
+      sizeFrom: 5.5
+      sizeTo: 0.8
+    }
+  }
+}
+consumes: {
+power: 3
+coolant: {}
+}
+category: turret
+requirements: [
+  lead/35
+  copper/50
+  scrap/75
+  coal/50
+]
+research: {
+  parent: blast
+  objectives: [
+    {
+      type: OnSector
+      preset: lava ocean
+    }
+  ]
+}
+researchCost: [
+  scrap/75
+  graphite/20
+  nails/20
+  research-plans/1
+]
