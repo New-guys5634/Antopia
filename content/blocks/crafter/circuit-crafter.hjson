@@ -1,0 +1,43 @@
+description: forges raw gold and other substances into circuits.
+name: circuit crafter
+type: GenericCrafter
+size: 2
+health: 210
+craftTime: 120
+hasItems: true
+hasLiquids: false
+hasPower: true
+liquidCapacity: 20
+powerCapacity: 1
+itemCapacity: 5
+consumes: {
+   power: 1
+  items: {
+    items: [
+      raw-obsidian/1
+      clay/1
+      fine-iron/2
+      raw-gold/1
+    ]
+  }
+}
+requirements: [
+  scrap/5
+  nails/6
+  metal/15
+  lead/15
+  fine-iron/5
+]
+category: crafting
+outputItem: circuits/2
+research: iron-smelter
+researchCost: [
+  scrap/15
+  nails/20
+  lead/40
+  metal/14
+  research-plans/1
+  fine-iron/20
+  hot-sand/20
+  raw-gold/20
+]

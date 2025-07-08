@@ -1,0 +1,31 @@
+description: forges metal out of scraps and spore pods
+name: metal forge
+type: GenericCrafter
+size: 2
+health: 185
+craftTime: 120
+hasItems: true
+hasLiquids: false
+hasPower: false
+itemCapacity: 10
+consumes: {
+  items: {
+    items: [
+      raw-scrap/1
+      spore-pod/2
+    ]
+  }
+}
+requirements: [
+  scrap/17
+  nails/12
+  lead/4
+]
+category: crafting
+outputItem: metal/1
+research: nails-producer
+researchCost: [
+  scrap/14
+  nails/18
+  research-plans/1
+]

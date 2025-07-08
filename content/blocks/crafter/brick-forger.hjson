@@ -1,0 +1,41 @@
+description: forges clay and water into bricks
+name: brick forger
+type: GenericCrafter
+size: 2
+health: 230
+craftTime: 429
+hasItems: true
+hasLiquids: true
+hasPower: true
+liquidCapacity: 20
+powerCapacity: 1
+itemCapacity: 15
+consumes: {
+   power: 1
+  items: {
+    items: [
+      clay/5
+    ]
+   liquids: [
+     water/ 0.7
+    ]
+  }
+}
+requirements: [
+  scrap/10
+  nails/6
+  metal/15
+  lead/15
+  fine-iron/5
+]
+category: crafting
+outputItem: bricks/2
+research: graphite-construct
+researchCost: [
+  scrap/30
+  nails/20
+  lead/40
+  metal/25
+  research-plans/1
+  fine-iron/20
+]

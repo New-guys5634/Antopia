@@ -1,0 +1,32 @@
+description: melts raw coal or sand into coal and sand
+name: melter
+type: GenericCrafter
+size: 2
+health: 185
+craftTime: 120
+hasItems: true
+hasLiquids: false
+hasPower: false
+itemCapacity: 10
+consumes: {
+  items: {
+    items: [
+      raw-coal/1
+      raw-sand/1
+    ]
+  }
+}
+requirements: [
+  scrap/5
+  nails/6
+  copper/4
+]
+category: crafting
+outputItem: sand/2
+research: nails-producer
+researchCost: [
+  scrap/12
+  nails/8
+  copper/30
+  research-plans/1
+]

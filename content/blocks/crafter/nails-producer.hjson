@@ -1,0 +1,39 @@
+description: forges nails out of scrap and lead
+name: nail forge
+type: GenericCrafter
+size: 2
+health: 435
+craftTime: 90
+hasItems: true
+hasLiquids: false
+hasPower: false
+itemCapacity: 20
+consumes: {
+  items: {
+    items: [
+      scrap/1
+      lead/2
+    ]
+  }
+}
+requirements: [
+  scrap/17
+  copper/8
+  lead/4
+]
+category: crafting
+outputItem: nails/2
+research: {
+     parent: main-core 
+     objectives: [
+     {
+        type: onSector 
+        preset: compact-zone
+     }
+   ]
+}
+researchCost: [
+  lead/5
+  scrap/15
+  copper/15
+]

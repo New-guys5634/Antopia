@@ -1,0 +1,32 @@
+name: glass fabictor
+description: creates glass
+type: GenericCrafter
+size: 2
+health: 255
+craftTime: 240
+hasItems: true
+hasLiquids: false
+hasPower: false
+itemCapacity: 2
+consumes: {
+  items: {
+    items: [
+      raw-sand/1
+      hot-sand/2
+    ]
+  }
+}
+requirements: [
+  scrap/15
+  nails/3
+  metal/3
+]
+category: crafting
+outputItem: glass/1
+research: metal-scraper
+researchCost: [
+  scrap/8
+  nails/8
+  metal/8
+  research-plans/1
+]

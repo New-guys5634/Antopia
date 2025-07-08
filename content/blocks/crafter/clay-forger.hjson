@@ -1,0 +1,40 @@
+description: forges raw obsidian and sand into fine clay
+name: clay forger
+type: GenericCrafter
+size: 2
+health: 190
+craftTime: 120
+hasItems: true
+hasLiquids: false
+hasPower: true
+liquidCapacity: 20
+powerCapacity: 1
+itemCapacity: 12
+consumes: {
+   power: 1
+  items: {
+    items: [
+      raw-obsidian/1
+      raw-coal/1
+      sand/2
+    ]
+  }
+}
+requirements: [
+  scrap/5
+  nails/6
+  metal/15
+  lead/15
+  fine-iron/5
+]
+category: crafting
+outputItem: clay/2
+research: graphite-construct
+researchCost: [
+  scrap/15
+  nails/20
+  lead/40
+  metal/14
+  research-plans/1
+  fine-iron/20
+]

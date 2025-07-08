@@ -1,0 +1,37 @@
+name: graphite construct
+description: crafts graphite out of stone and raw coal
+type: GenericCrafter
+size: 3
+health: 600
+craftTime: 90
+hasItems: true
+hasLiquids: false
+hasPower: false
+itemCapacity: 10
+liquidCapacity: 20
+consumes: {
+  items: {
+    items: [
+      stone/1
+      raw-coal/1
+    ]
+  }
+}
+requirements: [
+  copper/15
+  scrap/15
+  lead/15
+  nails/10
+  metal/5
+]
+category: crafting
+outputItem: graphite/3 
+research: metal-scraper
+researchCost: [
+  copper/350
+  scrap/130
+  lead/45
+  research-plans/1
+  nails/5
+  metal/5
+]

@@ -1,0 +1,33 @@
+description: outputs plans out of scrap,nails,lead,copper
+name: research maker
+type: GenericCrafter
+size: 2
+health: 435
+craftTime: 1300
+hasItems: true
+hasLiquids: false
+hasPower: false
+itemCapacity: 20
+consumes: {
+  items: {
+    items: [
+      scrap/2
+      lead/5
+      nails/2
+      copper/4
+    ]
+  }
+}
+requirements: [
+  nails/10
+  copper/10
+  lead/20
+  scrap/30
+]
+category: crafting
+outputItem: research-plans/1
+research: nails-producer 
+researchCost: [
+  lead/14
+  scrap/18
+]

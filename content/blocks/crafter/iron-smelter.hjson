@@ -1,0 +1,38 @@
+description: melts raw iron into fine iron
+name: iron smelter
+type: GenericCrafter
+size: 2
+health: 140
+craftTime: 360
+hasItems: true
+hasLiquids: false
+hasPower: true
+liquidCapacity: 20
+powerCapacity: 1
+itemCapacity: 15
+consumes: {
+   power: 1
+  items: {
+    items: [
+      raw-iron/1
+      raw-coal/1
+      coal/2
+    ]
+  }
+}
+requirements: [
+  scrap/5
+  nails/6
+  metal/15
+  lead/15
+]
+category: crafting
+outputItem: fine-iron/2
+research: clay-forger
+researchCost: [
+  scrap/14
+  nails/20
+  lead/40
+  metal/14
+  research-plans/1
+]

@@ -1,0 +1,33 @@
+description: freezes the raw coal and convrets it into coal
+name: coalifier
+type: GenericCrafter
+size: 1
+health: 185
+craftTime: 240
+hasItems: true
+hasLiquids: false
+hasPower: true
+powerCapacity: 1
+itemCapacity: 2
+consumes: {
+   power: 1
+  items: {
+    items: [
+      raw-coal/1
+    ]
+  }
+}
+requirements: [
+  scrap/5
+  nails/6
+  metal/1
+]
+category: crafting
+outputItem: coal/1
+research: nails-producer
+researchCost: [
+  scrap/7
+  nails/8
+  metal/3
+  research-plans/1
+]
