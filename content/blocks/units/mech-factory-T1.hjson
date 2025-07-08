@@ -1,0 +1,62 @@
+name: t1 factory 
+description: constructs t1 units
+type: UnitFactory
+category: units
+size: 2
+configurable: true
+plans: [
+  {
+    unit: T1-mech
+    time: 600
+    requirements: [
+      scrap/20
+      copper/10
+      lead/25
+    ]
+  }
+{
+     unit: T1-tank
+     time: 1200
+     requirements: [
+         nails/5
+         metal/2
+         scrap/20
+     ]
+   }
+{
+      unit: T1-flyer
+      time: 900
+       requirements: [
+          nails/5
+          lead/20
+          scrap/10
+     ]
+   }
+{
+       unit: T1-crawler 
+       time: 600
+       requirements: [
+           nails/10
+           spore-pod/4
+     ]
+  }
+]
+requirements: [
+  lead/35
+  nails/6
+  scrap/10
+]
+research: {
+  parent: main-core 
+  objectives: [
+    {
+      type: OnSector
+      preset: compact-zone 
+    }
+  ]
+}
+researchCost: [
+  scrap/10
+  lead/20
+  nails/5
+]

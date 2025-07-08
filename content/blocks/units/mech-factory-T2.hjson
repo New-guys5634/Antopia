@@ -1,0 +1,76 @@
+name: t2 factory 
+description: constructs t2 units
+type: UnitFactory
+category: units
+size: 2
+consumes: {
+  power: 6
+}
+configurable: true
+plans: [
+  {
+    unit: T2-blast
+    time: 1800
+    requirements: [
+      nails/30
+      stone/10
+      metal/25
+      scrap/15
+    ]
+  }
+{
+     unit: armored-drone 
+     time: 2600
+     requirements: [
+         nails/15
+         metal/10
+         scrap/20
+         glass/5
+     ]
+   }
+{
+      unit: T2-tank
+      time: 2600
+       requirements: [
+          nails/10
+          lead/20
+          scrap/10
+          stone/10
+          lead/10
+          copper/20
+     ]
+   }
+{
+       unit: T3-mech
+       time: 4600
+       requirements: [
+           nails/10
+           raw-coal/12
+           metal/5
+           scrap/20
+     ]
+  }
+]
+requirements: [
+  lead/35
+  scrap/10
+  research-plans/5
+  nails/15
+  stone/70
+]
+research: {
+  parent: mech-factory-T1
+  objectives: [
+    {
+      type: OnSector
+      preset:  abandoned metal lab
+    }
+  ]
+}
+researchCost: [
+  scrap/30
+  research-plans/5
+  nails/15
+  metal/20
+  stone/140
+]

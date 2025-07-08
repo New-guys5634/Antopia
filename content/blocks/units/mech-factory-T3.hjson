@@ -1,0 +1,76 @@
+name: t3 factory 
+description: constructs T4 units
+type: UnitFactory
+category: units
+size: 3
+consumes: {
+  power: 10
+}
+configurable: true
+plans: [
+  {
+    unit: T4-flyer
+    time: 8000
+    requirements: [
+      nails/60
+      stone/30
+      metal/125
+      scrap/150
+      circuits/3
+    ]
+  }
+{
+     unit: T4-crawler
+     time: 7000
+     requirements: [
+         nails/130
+         metal/100
+         scrap/200
+         glass/50
+         stone/120
+         raw-gold/30
+         circuits/5
+         fine-iron/30
+         bricks/20
+     ]
+   }
+{
+      unit: T4-mech
+      time: 9000
+       requirements: [
+          nails/100
+          lead/200
+          scrap/100
+          stone/100
+          metal/90
+          copper/80
+          circuits/60
+     ]
+  }
+]
+requirements: [
+  lead/35
+  scrap/10
+  research-plans/5
+  nails/15
+  stone/70
+]
+research: {
+  parent: mech-factory-T2
+  objectives: [
+    {
+      type: OnSector
+      preset: obsidian ruins
+    }
+  ]
+}
+researchCost: [
+  scrap/3000
+  research-plans/30
+  nails/15
+  metal/20
+  stone/140
+  raw-gold/60
+  circuits/15
+  fine-iron/120
+]
