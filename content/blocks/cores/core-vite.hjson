@@ -1,0 +1,35 @@
+type: CoreBlock
+name: core vite
+description: The 2nd core of the base once destroyed the sector is lost commonly used to explore the solar system because of its powerful nature to survive any planet due to its powerful armored platings
+requirements: [
+  lead/20
+  scrap/15
+  copper/80
+  nails/15
+  metal/10
+  raw-iron/15
+]
+	"health": 1400
+	"size": 3
+	"category": effect
+	"absorbLasers": true,
+	"itemCapacity": 1400,
+	"unitCapModifier": 14,
+    "unitType": "nova",
+research: {
+    parent: "main-core",
+    objectives: [
+        {
+            type: "SectorComplete",
+            preset: "lava ocean"
+        }
+    ]
+},
+researchCost: [
+  copper/2000
+  lead/1000
+  nails/120
+  raw-iron/70
+  metal/200
+  research-plans/200
+  ]
