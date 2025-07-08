@@ -1,0 +1,5 @@
+name: enhance
+damage: 0
+speedMultiplier: 1.25
+damageMultiplier: 1.25
+healthMultiplier: 1.45

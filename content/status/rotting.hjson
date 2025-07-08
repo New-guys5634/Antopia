@@ -1,0 +1,4 @@
+name: rotting
+damage: 4
+speedMultiplier: 0.25
+damageMultiplier: 0.4
