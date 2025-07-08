@@ -1,0 +1,6 @@
+name: circuits 
+description: circuits are mainly use to construct tier 4s.
+color: 3D6E70FF
+hardness: 2
+research: raw-gold
+hiddenOnPlanets: [serpulo,erekir]

@@ -1,0 +1,5 @@
+description: bricks is a heated version of clay
+name: bricks
+color: FF9166FF
+research: clay
+hiddenOnPlanets: [serpulo,erekir]

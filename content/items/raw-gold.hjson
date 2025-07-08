@@ -1,0 +1,8 @@
+name: raw gold
+description: raw gold was apart from the failure of the seeding event when they got hijacked...
+color: F2A65EFF
+hardness: 4
+research: raw-obsidian 
+charge: 1
+explosiveness: 1.2
+hiddenOnPlanets: [serpulo,erekir]

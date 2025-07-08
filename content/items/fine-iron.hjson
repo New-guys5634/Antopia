@@ -1,0 +1,5 @@
+description: fine iron is created form raw iron
+name: fine iron
+color: 43434FFF
+research: raw-iron
+hiddenOnPlanets: [serpulo,erekir]

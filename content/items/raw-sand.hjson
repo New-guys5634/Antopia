@@ -1,0 +1,5 @@
+name: raw sand
+description: raw sand is found on the lava ocean or mountains 
+color: FFB570FF
+research: metal
+hiddenOnPlanets: [serpulo,erekir]

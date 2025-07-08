@@ -1,0 +1,6 @@
+name: raw iron
+description: raw iron was at first discovered and brang to zrogro for experimenting but things went wrong.
+color: 000000FF
+hardness: 2
+research: metal
+hiddenOnPlanets: [serpulo,erekir]

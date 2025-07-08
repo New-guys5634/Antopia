@@ -1,0 +1,6 @@
+name: raw obsidian
+description: this blockly raw obsidian was made in the volcanic mountains
+color: 322947FF
+hardness: 2
+research: research-plans
+hiddenOnPlanets: [serpulo,erekir]
