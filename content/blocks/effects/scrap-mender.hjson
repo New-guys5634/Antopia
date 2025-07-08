@@ -1,0 +1,36 @@
+name: project mender
+description: restores lost health to blocks
+category: effect
+type: MendProjector
+health: 300
+size: 2
+
+hasItems: false
+hasLiquids: false
+hasPower: true
+consumes: {
+	power: 2
+}
+range: 50
+healPercent: 4
+reload: 75
+requirements: [
+	lead/20
+	graphite/15
+	nails/7
+]
+research: {
+  parent: weak-mender
+  objectives: [
+    {
+      type: OnSector
+      preset: lava ocean
+    }
+  ]
+}
+researchCost: [
+  lead/250
+  graphite/250
+  scrap/15
+  research-plans/1
+]
