@@ -1,0 +1,80 @@
+name: mass-cwa-spawner
+hitSize: 8
+speed: 0.0
+health: 1000
+rotateSpeed: 0.0
+accel: 0.0
+armor: 5
+type: mech
+defaultController: CommandAI
+createScorch: false
+useUnitCap: false
+canDrown: false
+physics: false
+hidden: false
+outlineColor: 1f1f1f
+            "legMoveSpace": 1,
+            "legMaxLength": 1.2,
+            "legMinLength": 0.3,
+            "legLengthScl": 0.96,
+            "legForwardScl": 0.3,
+            "legPhysicsLayer": false,
+         "legGroupSize": 1,
+         "legCount": 2,
+         "legExtension": 0,
+        "legContinuousMove": true,
+        "lockLegBase": true,
+        "rippleScale": 0.2,
+	"legBaseOffset": 0,
+	"legLength": 20, 
+	"allowLegStep": true,
+	"hovering": false
+drawCell: false
+abilities: [
+{
+      "type": "UnitSpawnAbility",
+      "unit": "creen-ta-hh",
+      "spawnX": 0,
+      "spawnY": 0,
+      "spawnTime": 2100
+}
+]
+weapons: [
+ {
+  type: Weapon
+  name: no
+  
+  top: false
+  x: 4
+  y: 2
+  shootY: 6
+  shootX: 3
+  
+  mirror: true
+  rotate: true
+  shootCone: 10
+  shootSound: bolt
+  inaccuracy: 3
+  reload: 80
+  targetInterval: 1
+  targetSwitchInterval: 3
+  cooldownTime: 35 
+  shoot: {
+  shots: 4
+  shotDelay: 20
+  }  
+  bullet: {
+   type: BasicBulletType
+   width: 2
+   height: 4
+   
+   damage: 9
+   
+   speed: 3
+   lifetime: 20
+   
+   trailWidth: 1
+   trailLength: 2
+   }
+  }
+ ]

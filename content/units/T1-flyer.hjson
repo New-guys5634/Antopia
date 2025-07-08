@@ -1,0 +1,80 @@
+     name: T1 flyer
+     description: a weak unit but in hoards it's deadly
+    "type": "flying",
+    "lowAltitude": true,
+    "speed": 3,
+    "accel": 0.05,
+    "drag": 0.03,
+    "flying": true,
+    "health": 120,
+    "hitSize": 6,
+    "armor": 1,
+    "itemCapacity": 0,
+  "outlineColor": "36363c",
+    "engineOffset": 5.5,
+    "faceTarget": true,
+weapons: [
+  {
+    name: T1-flyer-wepon 
+    shots: 8
+    shotsdelay: 10
+    alternate: true
+    x: 4
+    y: 0
+    shootY: 5
+    layerOffset: -1
+    reload: 12
+    recoil: 2
+    inaccuracy: 12
+    shootSound: missileLarge
+    bullet: {
+      speed: 4
+      lifetime: 35
+      damage: 12
+      pierce: false
+      pierceBuilding: false
+      pierceCap: 1
+      width: 3
+      height: 10
+        frontColor: ff0300
+        backColor: ffffff
+      despawnHit: true
+      despawnEffect: none
+      hitEffect: [
+        {
+          type: ParticleEffect
+          particles: 6
+          line: true
+          lifetime: 15
+          length: 15
+          lenFrom: 3
+          lenTo: 0
+          strokeFrom: 1
+          strokeTo: 0
+          colorFrom: f30a00
+          colorTo: ffffff
+        }
+        {
+          type: WaveEffect
+          sizeFrom: 0
+          sizeTo: 7
+          lifetime: 10
+          strokeFrom: 1.5
+          strokeTo: 0
+          colorFrom: 3f0a00
+          colorTo: ffffff
+        }
+      ]
+    }
+  }
+ ] 
+research: {
+    parent: "T1-mech",
+    objectives: [
+        {
+            type: "OnSector",
+            preset: "lava valley"
+        }
+    ]
+},
+researchCostMultiplier: 0.4

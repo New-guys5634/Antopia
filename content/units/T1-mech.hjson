@@ -1,0 +1,57 @@
+name: T1 mech
+description: a powerful t1 mech built in zorgro
+type: mech
+mechLegColor: 1f1f1f
+
+health: 230
+armor: 5
+hitSize: 8
+speed: .8
+rotateSpeed: 1.3
+accel: 0.70
+
+itemCapacity: 10
+outlineColor: 000000
+
+weapons: [
+ {
+  type: Weapon
+  name: T1-mech-wepon
+  
+  top: false
+  x: 0
+  y: 2
+  shootY: 8
+  shootX: 6
+  
+  mirror: true
+  rotate: false
+  shootCone: 10
+  shootSound: orb
+  inaccuracy: 3
+  reload: 26
+  targetInterval: 1
+  targetSwitchInterval: 3
+  cooldownTime: 35 
+  
+  bullet: {
+   type: BasicBulletType
+   homingRange: 36
+   homingPower: 4
+   width: 5
+   height: 7
+   
+   damage: 19.5
+   
+   speed: 3.5
+   lifetime: 45.5
+   
+   trailWidth: 2
+   trailLength: 8
+   }
+  }
+ ]
+
+
+research: mech-factory-T1
+researchCostMultiplier: 0.1

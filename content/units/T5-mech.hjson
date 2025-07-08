@@ -1,0 +1,135 @@
+description: a powerful unit sent from an unknown asteroid to destroy everything
+name: T5 mech
+"outlineColor": "36363c",
+  "type": "mech",
+	"speed": 0.1,
+	"hitSize": 24,
+	"health": 18000,
+	"faceTarget": true,
+	"armor": 14,
+	"range": 280,
+	"targetAir": true,
+	"rotateSpeed": 1,
+"mechFrontSway": 0.5,
+"mechSideSway": 0.5,
+"mechStepParticles": true,
+      "stepShake": 3,
+mechStride: 14
+	"hovering": false,
+	"immunities": [
+		"freezing"
+       "rotting"
+       "melting"
+	],
+targetAir: true
+weapons: [
+{
+name: T5-wepon
+x: 20
+y: 0
+mirror: true
+shoot: {
+type: ShootPattern
+shots: 6
+shotDelay: 4
+}
+top: false
+rotate: true
+reload: 140
+recoil: 5
+shootSound: bolt
+ejectEffect: none
+shake: 2
+cooldownTime: 90
+bullet: {
+type: ArtilleryBulletType
+width: 10
+height: 10
+damage: 40
+splashDamage: 20
+splashDamageRadius: 60
+speed: 4
+lifetime: 120
+frontColor: ff9959
+backColor: eb742a
+status: tarred 
+statusDuration: 60
+hitShake: 1
+hitSound: explosionbig
+      "lightning": 8,
+      "lightningLength": 10,
+      "lightningLengthRand": 15,
+      "lightningDamage": 15,
+"lightningColor": "ff9959",
+shootEffect:   	{
+	"type": "ParticleEffect",
+    "particles": 10,
+    "length": 15,
+    "lifetime": 20,
+    "interp": "circleOut",
+    "sizeInterp": "pow5In",
+    "colorFrom": "ffb78a",
+    "colorTo": "c26b34",
+    "sizeFrom": 3,
+    "sizeTo": 0
+    offsetY: 6
+	},
+   "hitEffect": {
+    "type": "multiEffect",
+    "effects": [
+    {
+    "type": "WaveEffect",
+    "lifetime": 35,
+    "sizeFrom": 0,
+    "sizeTo": 65,
+    "interp": "circleOut",
+    "strokeFrom": 35,
+    "strokeTo": 0,
+    "colorFrom": "ff9959",
+    "colorTo": "f77c2f"
+    },
+    	{
+	"type": "ParticleEffect",
+    "line": true,
+    "particles": 18,
+    "lifetime": 30,
+    "baseLength": 15,
+    "length": 60,
+    "lenFrom": 8,
+    "lenTo": 3,
+    strokeFrom: 5
+    strokeTo: 0
+    "lightColor": "agafag",
+    "colorFrom": "202a1g",
+    "colorTo": "ffc2gf"
+	},
+  	{
+	"type": "ParticleEffect",
+    "particles": 14,
+    "length": 80,
+    "lifetime": 70,
+    "interp": "circleOut",
+    "sizeInterp": "pow5In",
+    "colorFrom": "ffb78a",
+    "colorTo": "f77c2f",
+    "sizeFrom": 8,
+    "sizeTo": 0
+	},
+    ]
+   }
+    trailChance: 0.5
+    trailLength: 7
+    trailWidth: 5
+}
+}
+]
+research: {
+    parent: "T4-mech",
+	requirements: [
+		lead/4800
+		copper/3600
+		circuits/2200
+      bricks/1800
+      fine-iron/1500
+	]
+}

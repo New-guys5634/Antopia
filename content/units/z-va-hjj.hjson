@@ -1,0 +1,61 @@
+name: z-va-hjj
+type: mech
+mechLegColor: 1f1f1f
+
+health: 1200
+armor: 1
+hitSize: 15
+controller: SuicideAI
+speed: 0.2
+rotateSpeed: 0.2
+accel: 0.15
+mechSideSway: 0.40
+outlineColor: 1f1f1f
+drawCell: false
+abilities: [
+{
+      "type": "UnitSpawnAbility",
+      "unit": "blss-swa",
+      "spawnX": -15,
+      "spawnY": 0,
+      "spawnTime": 1000
+}
+{
+      "type": "UnitSpawnAbility",
+      "unit": "sm-dd",
+      "spawnX": 15,
+      "spawnY": 0,
+      "spawnTime": 700
+}
+]
+
+weapons: [
+ {
+  name: boom
+  reload: 0
+  shootCone: 180
+  ejectEffect: none
+  shootSound: explosion
+  bullet: {
+    type: BombBulletType
+    hitEffect: pulverize
+    lifetime: 10
+    speed: 1
+    splashDamageRadius: 45
+    instantDisappear: true
+    splashDamage: 60
+    killShooter: true
+    hittable: false
+    collidesAir: true
+    fragBullets: 2
+    fragCone: 360
+    hitSound: explosion
+    fragBullet: {
+     type: LaserBulletType
+     length: 10
+     colors: [000000 000000 000000]
+     damage: 120
+   }
+ }
+ }
+]

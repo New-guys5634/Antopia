@@ -1,0 +1,67 @@
+type: tank
+name: T2 tank
+description: fires strong bullets at the their enemies 
+hitSize: 8
+treadPullOffset: 4
+omniMovement: false
+faceTarget: false
+outlineColor: 44413c
+speed: 1
+rotateSpeed: 2.5
+health: 370
+armor: 8
+itemCapacity: 10
+hitSize: 13
+treadRects: [
+  {
+    x: 9
+    y: -26
+    width: 18
+    height: 48
+  }
+]
+weapons: [
+  {
+    x: 0
+    y: 1
+    name: T2-tank-wepon
+    reload: 40
+    rotate: true
+    mirror: true
+    shootSound: shootSmite
+    bullet: {
+      fragLifeMin: 1
+      fragLifeMax: 1
+      fragVelocityMin: 1
+      fragVelocityMax: 1
+      fragRandomSpread: 0
+      fragBullets: 2
+      fragBullet: {
+        type: LightningBulletType
+        lightningLength: 20
+        damage: 5
+        pierce: false
+        buildingDamageMultiplier: 0.75
+        pierceBuilding: false
+        lightningColor: fa0020
+      }
+      type: LaserBulletType
+      shots: 2
+      shotDelay: 2
+      pierce: true
+      colors: [cf0000, fa0000, ffffff]
+      pierceBuilding: false
+      length: 160
+      width: 2
+      sideAngle: 90
+      sideWidth: 2
+      pierce: true
+      pierceCap: 3
+      damage: 18.5
+      despawnSound: explosion
+      hitSound: explosion
+    }
+  }
+]
+research: T2-tank
+researchCostMultiplier: 0.5

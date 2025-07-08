@@ -1,0 +1,70 @@
+     name: weak drone
+     description: a weak unit that has been fighting for years
+    "type": "flying",
+    "lowAltitude": true,
+    "speed": 4,
+    "accel": 0.05,
+    "drag": 0.03,
+    "flying": true,
+    "health": 80,
+    "hitSize": 6,
+    "armor": 1,
+    "itemCapacity": 4,
+  "outlineColor": "36363c",
+    "engineOffset": 6.0,
+    "faceTarget": true,
+weapons: [
+  {
+    name: wepon-No1
+    alternate: true
+    x: 4
+    y: 0
+    shootY: 5
+    layerOffset: 1
+    reload: 12
+    recoil: 4
+    inaccuracy: 0
+    shootSound: orb
+    bullet: {
+     homingRange: 30
+     homingPower: 3
+      speed: 4
+      lifetime: 40
+      damage: 8
+      pierce: true
+      pierceBuilding: false
+      pierceCap: 2
+      width: 5
+      height: 5
+        frontColor: 1CA7D1FF
+        backColor: 1BD19FFF
+      despawnHit: true
+      despawnEffect: none
+      hitEffect: [
+        {
+          type: ParticleEffect
+          particles: 6
+          line: true
+          lifetime: 15
+          length: 15
+          lenFrom: 4
+          lenTo: 0
+          strokeFrom: 2
+          strokeTo: 4
+          colorFrom: 1BD19FFF
+          colorTo: 1CA7D1FF
+        }
+        {
+          type: WaveEffect
+          sizeFrom: 0
+          sizeTo: 7
+          lifetime: 14
+          strokeFrom: 1.5
+          strokeTo: 0.4
+          colorFrom: 1BD19FFF
+          colorTo: 1CA7D1FF
+        }
+      ]
+    }
+  }
+ ] 

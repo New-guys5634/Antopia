@@ -1,0 +1,57 @@
+name: survival mech
+description: a strange unit 
+type: mech
+canfly: true
+mechLegColor: 1f1f1f
+health: 105
+armor: 1
+hitSize: 4
+speed: .5
+rotateSpeed: 1.3
+accel: 0.70
+
+itemCapacity: 5
+outlineColor: 1f1f1f
+
+weapons: [
+ {
+  type: Weapon
+  name: survival-mech-wepon
+  
+  top: false
+  x: 0
+  y: 0
+  shootY: 2
+  shootX: 4.2
+  
+  mirror: false
+  rotate: false
+  shootCone: 10
+  shootSound: bolt
+  inaccuracy: 3
+  reload: 24
+  targetInterval: 1
+  targetSwitchInterval: 3
+  cooldownTime: 35 
+  
+  bullet: {
+   type: BasicBulletType
+   width: 5
+   height: 7
+   collideTerrain: true
+   
+   damage: 11.5
+   homingPower: 2
+   homingRange: 90
+   
+   speed: 3.5
+   lifetime: 45.5
+   
+   trailWidth: 2
+   trailLength: 8
+   }
+  }
+ ]
+
+
+alwaysUnlocked: true

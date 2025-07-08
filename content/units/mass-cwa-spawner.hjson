@@ -1,0 +1,42 @@
+name: mass-cwa-spawner
+hitSize: 8
+speed: 0.0
+health: 700
+rotateSpeed: 0.0
+accel: 0.0
+armor: 5
+type: mech
+defaultController: CommandAI
+createScorch: false
+useUnitCap: false
+canDrown: false
+physics: false
+hittable: true
+hidden: false
+outlineColor: 1f1f1f
+            "legMoveSpace": 1,
+            "legMaxLength": 1.2,
+            "legMinLength": 0.3,
+            "legLengthScl": 0.96,
+            "legForwardScl": 0.3,
+            "legPhysicsLayer": false,
+         "legGroupSize": 1,
+         "legCount": 2,
+         "legExtension": 0,
+        "legContinuousMove": true,
+        "lockLegBase": true,
+        "rippleScale": 0.2,
+	"legBaseOffset": 0,
+	"legLength": 20, 
+	"allowLegStep": true,
+	"hovering": false
+drawCell: false
+abilities: [
+{
+      "type": "UnitSpawnAbility",
+      "unit": "blss-swa",
+      "spawnX": 0,
+      "spawnY": 0,
+      "spawnTime": 2000
+}
+]

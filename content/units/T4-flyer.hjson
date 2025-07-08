@@ -1,0 +1,195 @@
+     name: T4 armored flyer
+     description: an armored used in the strange asteroid 
+    "type": "flying",
+    "lowAltitude": true,
+    " crashDamageMultiplier": 3
+     "fallSpeed": 0.010
+    "speed": 0.3,
+	  "rotateSpeed": 1.5,
+    "accel": 0.1,
+    "drag": 0.03,
+    "flying": true,
+    "health": 5000,
+    "hitSize": 28,
+    "armor": 4,
+    "itemCapacity": 0,
+  "outlineColor": "36363c",
+    "engineOffset": 14,
+    "engineSize": 5,
+    "faceTarget": true,
+
+deathSound: death
+
+abilities: [
+{
+   type: SpawnDeathAbility
+   unit: T4-flyer-wrek
+  }
+]
+
+weapons: [
+{
+name: wepon-No2
+mirror: false
+x: 0
+y: 8
+top: false
+rotate: true
+reload: 520
+recoil: 1
+shootSound: missileLarge 
+ejectEffect: none
+shake: 3
+"shoot": {
+"type": "shootHelix",
+shots: 4
+shotDelay: 30
+mag: 1.5
+offset: 0
+scl: 4
+}
+    "bullet": { 
+    "colors":["00eeff", "00eeff", "FFFFFFF"],
+      "type": "BasicBulletType",
+      "height": 20,
+      "width": 20,
+      "damage": 169,
+      "recoil": 0,
+      lifetime: 140
+      speed: 3
+      hitShake: 3
+    "splashDamage": 10,
+    "splashDamageRadius": 40,
+    "frontColor": 4df4ff,
+    "backColor": 4df4ff,
+    "collidesAir": true,
+    "collides": true,
+    "collidesTiles": true,
+    "collidesGround": true,
+    "collidesFloor": true,
+          despawnHit: true
+    "hitEffect": {
+    "type": "MultiEffect",
+	"effects": [
+            {
+                "type": "WaveEffect",
+                "colorFrom": "fga000",
+                "colorTo": "ffa000",
+                "sizeFrom": 1,
+                "sizeTo": 40,
+                "lifetime": 20
+                "strokeFrom": 15,
+                "strokeTo": 0
+            }
+  ]
+  }
+    "trailChance": 1,
+    "trailEffect": {
+    "type": "ParticleEffect",
+    "particles": 1,
+    "length": 0,
+    "lifetime": 20,
+    "region": "-b--triangle",
+    "lightColor": "ffag00",
+    "colorFrom": "ffa000",
+    "colorTo": "bdfbff00",
+    "sizeFrom": 6,
+    "sizeTo": 2
+    }
+    "shootEffect": {
+        "type": "MultiEffect",
+        "effects": [
+            {
+                "type": "WaveEffect",
+                "colorFrom": "0a00f0",
+                "colorTo": "ffa000",
+                "sizeFrom": 1,
+                "sizeTo": 18,
+                "lifetime": 12
+                "strokeFrom": 7,
+                "strokeTo": 0
+            }
+            {
+              type: ParticleEffect
+              particles: 5
+              lifetime: 30
+              length: 20
+              sizeFrom: 3
+              sizeTo: 0
+              colorFrom: ffffff
+              colorTo: adfaff
+              strokeFrom: 3
+              strokeTo: 1.5
+              interp: pow3Out
+              spin: 5
+              sizeInterp: pow2In
+              region: -c--triangle
+            }
+        ]
+    }
+}
+}
+{
+name: wepon-No1
+mirror: true
+x: 13
+y: 0
+top: true
+rotate: true
+reload: 2
+recoil: 2
+shootSound: orb
+ejectEffect: none
+shake: 0
+    bullet: {
+      type: BasicBulletType
+      speed: 5
+      lifetime: 30
+      damage: 14.5
+      pierce: true
+      pierceBuilding: true
+      pierceCap: 1
+      width: 4
+      height: 4
+        frontColor: 1BD19FFF
+        backColor: 1CA7D1FF
+      despawnHit: true
+      despawnEffect: none
+      hitEffect: [
+        {
+          type: ParticleEffect
+          particles: 6
+          line: true
+          lifetime: 15
+          length: 15
+          lenFrom: 3
+          lenTo: 0
+          strokeFrom: 1
+          strokeTo: 0
+          colorFrom: 1BD19FFF
+          colorTo: 1CA7D1FF
+        }
+        {
+          type: WaveEffect
+          sizeFrom: 0
+          sizeTo: 7
+          lifetime: 10
+          strokeFrom: 1.5
+          strokeTo: 0
+          colorFrom: 1BD19FFF
+          colorTo: 1CA7D1FF
+        }
+      ]
+}
+}
+ ] 
+research: {
+    parent: "T1-flyer",
+    objectives: [
+        {
+            type: "SectorComplete",
+            preset: "lava ocean"
+        }
+    ]
+},
+researchCostMultiplier: 0.8

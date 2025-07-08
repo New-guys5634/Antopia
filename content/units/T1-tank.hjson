@@ -1,0 +1,128 @@
+type: tank
+name: T1 tank
+description: A strong tank equipped with a laser bolt and Twp anti air towers
+hitSize: 8
+treadPullOffset: 3
+omniMovement: false
+faceTarget: false
+outlineColor: 44413c
+speed: 1
+rotateSpeed: 2.5
+health: 200
+armor: 2
+itemCapacity: 10
+hitSize: 13
+treadRects: [
+  {
+    x: 9
+    y: -26
+    width: 18
+    height: 48
+  }
+]
+weapons: [
+  {
+    x: 0
+    y: 1
+    name: T1-tank-weapon
+    reload: 75
+    rotate: true
+    mirror: false
+    shootSound: light
+    bullet: {
+      fragLifeMin: 1
+      fragLifeMax: 1
+      fragVelocityMin: 1
+      fragVelocityMax: 1
+      fragRandomSpread: 0
+      fragBullets: 1
+      fragBullet: {
+        type: LightningBulletType
+        lightningLength: 16
+        damage: 14
+        collidesAir: false
+        collidesGround: true
+        pierce: false
+        buildingDamageMultiplier: 0.75
+        pierceBuilding: false
+        lightningColor: fa0020
+      }
+      type: LaserBulletType
+      pierce: true
+      colors: [cf0000, fa0000, ffffff]
+      pierceBuilding: false
+      length: 80
+      width: 1.5
+      sideAngle: 90
+      sideWidth: 1.4
+      pierce: true
+      pierceCap: 1
+      damage: 21
+      despawnSound: explosion
+      hitSound: explosion
+     shootEffect: {
+     type: MultiEffect
+        effects: [
+             {
+              type: ParticleEffect
+              particles: 1
+              lifetime: 10
+              length: 0
+              sizeFrom: 0
+              sizeTo: 10
+              speed: 1
+              colorFrom: f1f1f1
+              colorTo: f1f1f1
+              strokeFrom: 1
+              strokeTo: 2
+              interp: pow3Out
+              spin: 0
+              sizeInterp: pow2In
+              region: -b--halo
+             }
+        ]
+    }
+ }
+}
+{
+  name: wepon-No4
+  
+  top: false
+  x: 0
+  y: 0
+  shootY: 3
+  shootX: 6
+  
+  mirror: false
+  rotate: true
+  rotateSpeed: 1
+  shootCone: 10
+  shootSound: orb
+  inaccuracy: 3
+  reload: 10
+  targetInterval: 2
+  targetSwitchInterval: 3
+  cooldownTime: 20
+  
+  bullet: {
+   type: BasicBulletType
+   homingRange: 36
+   homingPower: 4
+   width: 5
+   height: 7
+   collidesGround: true
+   collidesAir: true
+   
+   damage: 9.5
+   
+   speed: 3.5
+   lifetime: 45.5
+   
+   trailWidth: 2
+   trailLength: 8
+   }
+ }
+]
+
+research: T1-mech
+researchCostMultiplier: 0.7

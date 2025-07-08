@@ -1,0 +1,59 @@
+name: creen-ta-hh
+type: crawl
+flying: false
+health: 800
+armor: 5
+speed: 0.4
+hitSize: 12
+range: 100
+
+outlineColor: 1f1f1f
+drawBody: false
+drawCell: false
+
+controller: HugAI
+omniMovement: false
+crushDamage: 0.2
+rotateSpeed: 3
+segments: 3
+segmentScl: 3
+segmentPhase: 3
+segmentMag: 0.5
+drownTimeMultiplier: 0.3
+
+weapons: [
+ {
+  type: Weapon
+  name: no
+  
+  top: false
+  x: 0
+  y: 0
+  shootY: 3
+  shootX: 6
+  
+  mirror: true
+  rotate: true
+  shootCone: 10
+  shootSound: cannon
+  inaccuracy: 3
+  reload: 40
+  targetInterval: 1
+  targetSwitchInterval: 3
+  cooldownTime: 35 
+  
+  bullet: {
+   type: BasicBulletType
+   width: 4
+   height: 6
+   
+   damage: 18
+   
+   speed: 3.5
+   lifetime: 45.5
+   
+   trailWidth: 2
+   trailLength: 8
+   }
+  }
+ ]

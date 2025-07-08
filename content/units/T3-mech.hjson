@@ -1,0 +1,72 @@
+    name: T3 mech
+    description: a powerful T3mech
+	"outlineColor": "424245",
+  outlineRadius: 3
+  "type": "legs",
+	"speed": 0.7,
+	"hitSize": 10,
+	"health": 800,
+	"faceTarget": true,
+	"armor": 12,
+	"range": 80,
+	"targetAir": true,
+	"rotateSpeed": 2,
+            "legMoveSpace": 1,
+            "legMaxLength": 1.2,
+            "legMinLength": 0.3,
+            "legLengthScl": 0.96,
+            "legForwardScl": 0.5,
+            "legPhysicsLayer": true,
+         "legGroupSize": 2,
+         "legCount": 4,
+         "legExtension": 0,
+        "legContinuousMove": true,
+        "lockLegBase": false,
+        "rippleScale": 0.2,
+	"legBaseOffset": 0,
+	"legLength": 9, 
+	"allowLegStep": false,
+	"hovering": false,
+	"immunities": [
+		"freezing"
+	],
+weapons: [
+{
+name: T3-mech-wepon
+x: 5.5
+y: 0
+mirror: true
+shoot: {
+type: ShootPattern
+shots: 8
+shotDelay: 18
+}
+top: false
+rotate: true
+reload: 120
+recoil: 2
+shootSound: shootAlt
+ejectEffect: none
+  bullet: {
+    type: BasicBulletType
+    width: 6
+    hight: 4
+    speed: 8
+    lifetime: 80
+    length: 110
+    damage: 19.5
+    shootEffect: shootSmall
+    hitColor: ff0020
+    color: ff012f
+    despawnEffect: none
+    lifetime: 20
+    knockback: 2
+status: melting 
+statusDuration: 180
+}
+}
+]
+research: {
+    parent: "mech-factory-T1"
+}
+researchCostMultiplier: 0

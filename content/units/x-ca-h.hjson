@@ -1,0 +1,62 @@
+name: hive
+type: crawl
+flying: false
+health: 1400
+armor: 5
+speed: 0.1
+hitSize: 12
+range: 100
+
+outlineColor: 1f1f1f
+drawBody: false
+drawCell: false
+
+controller: HugAI
+omniMovement: false
+crushDamage: 0.2
+rotateSpeed: 3
+segments: 8
+segmentScl: 3
+segmentPhase: 3
+segmentMag: 0.5
+drownTimeMultiplier: 0.3
+abilities: [
+{
+      "type": "UnitSpawnAbility",
+      "unit": "mass-cwa-spawner",
+      "spawnX": 0,
+      "spawnY": 0,
+      "spawnTime": 1000
+      "spawnEffect": "artilleryTrailSmoke",
+}
+]
+weapons: [
+ {
+  name: boom
+  reload: 0
+  shootCone: 180
+  ejectEffect: none
+  shootSound: explosion
+  bullet: {
+    type: BombBulletType
+    hitEffect: pulverize
+    lifetime: 10
+    speed: 1
+    splashDamageRadius: 45
+    instantDisappear: true
+    splashDamage: 300
+    killShooter: true
+    hittable: false
+    collidesAir: true
+    fragBullets: 2
+    fragCone: 360
+    hitSound: explosion
+    fragBullet: {
+     type: LaserBulletType
+     length: 10
+     colors: [000000 000000 000000]
+     damage: 300
+   }
+ }
+ }
+]

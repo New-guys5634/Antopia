@@ -1,0 +1,218 @@
+type: tank
+name: T3 tank
+description: fires a huge powerful laser at the their target 
+hitSize: 28
+treadRects: [
+  {
+    x: -39
+    y: -58
+    width: 25
+    height: 116
+  }
+]
+crushDamage: 4
+range: 160
+singleTarget: false
+omniMovement: false
+faceTarget: false
+health: 1100
+armor: 9
+speed: 0.9
+rotateSpeed: 2.5
+itemCapacity: 0
+outlineColor: 44413c
+research: T2-tank
+weapons: [
+  {
+    x: 0
+    y: 0.5
+    name: T3-tank-wepon
+    reload: 180
+    shootStatus: unmoving
+    shootStatusDuration: 160
+    continuous: true
+    shoot: {
+      firstShotDelay: 120
+    }
+    rotateSpeed: 1.8
+    mirror: false
+    rotate: true
+    shootY: 6
+    shootSound: laserbig
+    bullet: {
+      chargeEffect: {
+        type: MultiEffect
+        lifetime: 110
+        effects: [
+          {
+            type: ParticleEffect
+            particles: 6
+            length: 12
+            baseLength: 2
+            colorFrom: ffa000
+            colorTo: fec0a0
+            sizeFrom: 2.1
+            sizeTo: 0.6
+            lifetime: 50
+            interp: pow2In
+            sizeInterp: pow2
+            followParent: true
+            rotWithParent: false
+          }
+          {
+            type: ParticleEffect
+            particles: 6
+            length: 12
+            baseLength: 2
+            colorFrom: baa164
+            colorTo: edc66c
+            sizeFrom: 2.1
+            baseRotation: 46
+            sizeTo: 0.6
+            lifetime: 110
+            interp: pow2In
+            sizeInterp: pow2
+            followParent: true
+            rotWithParent: false
+          }
+          {  
+            type: WaveEffect
+            sides: 3
+            lifetime: 110
+            sizeFrom: 12
+            sizeTo: 1
+            strokeFrom: 1.1
+            strokeTo: 0.3
+            followParent: true
+          }
+          {  
+            type: WaveEffect
+            sides: 4
+            lifetime: 110
+            strokeFrom: 1.1
+            strokeTo: 0.3
+            sizeFrom: 1
+            sizeTo: 13
+            followParent: true
+          }
+          {
+            type: ParticleEffect
+            particles: 6
+            length: 2
+            baseLength: 12
+            colorFrom: ff0000
+            colorTo: afec00
+            sizeFrom: 0.6
+            baseRotation: 46
+            sizeTo: 2.1
+            lifetime: 110
+            interp: pow2Out
+            sizeInterp: pow2Out
+            followParent: true
+            rotWithParent: false
+          }
+        ]
+      }
+      spawnBullets: [
+        {
+          type: BasicBulletType
+          instantDisappear: true
+          damage: 0
+          shootEffect: shootBig
+          smokeEffect: shootSmokeDisperse
+        }
+      ]
+      type: ContinuousLaserBulletType
+      buildingDamageMultiplier: 0.50
+      length: 160
+      width: 2.5
+      shootEffect: shootBig2
+      despawnEffect: blastExplosion
+      smokeEffect: shootSmokeMissile
+      hitEffect: hitMeltdown
+      shake: 0.5
+      damageInterval: 5
+      damage: 45
+      lifetime: 160
+      fadeTime: 120
+      incendSpread: 0
+      incendAmount: 0
+      incendChance: 0
+      colors: [afecff, ffa000, edc66c, feac00, ffffff]
+      despawnSound: none
+      fragBullets: 1
+      fragRandomSpread: 0
+      pierceCap: 2
+      fragVelocityMin: 1
+      fragLifeMin: 1
+      fragOnHit: false
+      despawnSound: explosion
+      fragBullet: {
+        type: BasicBulletType
+        sprite: missile-large
+        width: 7.5
+        height: 13
+        lifetime: 28
+        speed: 7
+        damage: 35
+        splashDamage: 70
+        splashDamageRadius: 45
+        pierce: true
+        pierceBuilding: true
+        pierceCap: 1
+        hitColor: baa164
+        backColor: baa164
+        trailColor: baa164
+        frontColor: ffffff
+        hitSize: 8
+        trailWidth: 3
+        trailLength: 8
+        hitEffect: blastExplosion
+        despawnEffect: blastExplosion
+        shootEffect: shootTitan
+        smokeEffect: shootSmokeTitan
+        trailInterval: 3
+        trailEffect: shootSmokeSquareSparse
+        trailRotation: true
+        intervalBullets: 2
+        bulletInterval: 5
+        intervalRandomSpread: 0
+        intervalSpread: 75
+        intervalAngle: 0
+        intervalDelay: -1
+        despawnSound: explosion
+        intervalBullet: {
+          type: LaserBulletType
+          length: 30
+          width: 3
+          damage: 45
+          pierce: true
+          buildingDamageMultiplier: 0.75
+          lifetime: 10
+          colors: [baa164, edc66c, ffffff]
+        }
+        fragBullets: 6
+        fragBullet: {
+          type: BasicBulletType
+          speed: 2
+          lifetime: 25
+          sprite: missile-large
+          damage: 21
+          splashDamage: 10
+          splashDamageRadius: 20
+          pierce: false
+          width: 11
+          height: 14
+          frontColor: ffffff
+          backColor: ffa000
+          trailColor: fae0ff
+          despawnSound: explosion
+          trailWidth: 1.5
+          trailLength: 9
+          trailChance: -1
+        }
+      }
+    }
+  }
+]
+researchCostMultiplier: 2.5

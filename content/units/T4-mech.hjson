@@ -1,0 +1,78 @@
+     name: T4 mech
+     description: a huge powerful t4 that fires huge barrages of bullets
+	"outlineColor": "36363c",
+  "type": "mech",
+	"speed": 0.3,
+	"hitSize": 18,
+	"health": 10235,
+	"faceTarget": true,
+	"armor": 10,
+	"range": 220,
+	"rotateSpeed": 0.8
+"mechFrontSway": 0.5,
+"mechSideSway": 0.5,
+"mechStepParticles": true,
+"stepShake": 2.3,
+mechStride: 9
+	"hovering": false,
+	"immunities": [
+		"burning"
+	],
+targetAir: true
+weapons: [
+{
+name: T4-mech-wepon
+x: 14
+y: 0
+mirror: true
+shoot: {
+type: ShootPattern
+shots: 8
+shotDelay: 12
+}
+top: false
+rotate: false
+reload: 360
+recoil: 4
+shootSound: largeCannon
+ejectEffect: none
+bullet: {
+width: 13
+height: 19
+damage: 60
+splashDamage: 25
+splashDamageRadius: 20
+speed: 9
+lifetime: 55
+backColor: f00000
+frontColor: fa0000
+status: rotting
+statusDuration: 24
+    trailChance: 1
+	trailRotation: true
+    trailEffect: {
+    type: ParticleEffect
+	line: true
+    particles: 3
+    length: 0
+    lifetime: 10
+    sizeFrom: 5
+    sizeTo: 0
+    colorFrom: ff0020
+    colorTo: f20000
+    region: particle
+	followParent: true
+  }
+}
+}
+]
+research: {
+    parent: "T3-mech",
+    objectives: [
+        {
+            type: "SectorComplete",
+            preset: "volcanic ash"
+        }
+    ]
+},
+researchCostMultiplier: 0
