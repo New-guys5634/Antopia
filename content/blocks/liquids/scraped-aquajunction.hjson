@@ -1,0 +1,12 @@
+type: LiquidJunction
+name: scrap aquaJunction
+description: used for crossing
+solid: false
+category: liquid
+squareSprite: false
+research: scraped-aquaduct
+requirements: [
+  scrap/5
+  nails/1
+]
+researchCostMultiplier: 0.5

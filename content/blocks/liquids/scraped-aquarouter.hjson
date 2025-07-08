@@ -1,0 +1,16 @@
+type: LiquidRouter
+name: scrap aquarouter
+description: splits liquids
+size: 1
+solid: false
+underBullets: true
+health: 45
+liquidCapacity: 20
+category: liquid
+squareSprite: false
+research: scraped-aquaduct 
+requirements: [
+  scrap/7
+  nails/2
+]
+researchCostMultiplier: 0.5

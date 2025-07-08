@@ -1,0 +1,16 @@
+type: Conduit
+name: scraped aqua duct
+description: moves liquids 
+category: liquid
+research: scraped-pump
+requirements: [
+  scrap/2
+  nails/1
+]
+health: 125
+leaks: false
+junctionReplacement: scraped-aquajunction
+underBullets: true
+researchCostMultiplier: 0.5
+liquidPressure: 1.025
+liquidCapacity: 20

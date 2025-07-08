@@ -1,0 +1,13 @@
+type: Pump
+name: scrap pump
+description: Slowly pumps liquid from liquid tiles.
+size: 1
+category: liquid
+squareSprite: false
+research: main-core 
+requirements: [
+  scrap/18
+  nails/12
+]
+pumpAmount: 0.05
+researchCostMultiplier: 0.5
