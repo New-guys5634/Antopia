@@ -1,0 +1,38 @@
+type: BurstDrill
+name: T1 drill
+description: uses explosions to mine T1 ores
+size: 1
+category: production
+hasLiquids: false
+research: {
+  parent: normal-drill
+  objectives: [
+    {
+      type: OnSector
+      preset: lava valley
+    }
+  ]
+}
+hardnessDrillMultiplier: 85
+drillTime: 130
+hasPower: false
+tier: 1
+shake: 0.5
+itemCapacity: 20
+researchCostMultiplier: .5
+drillEffect: {
+  type: WaveEffect
+  sizeFrom: 0.1
+  sizeTo: 5.6
+  strokeFrom: 0.8
+  strokeTo: 0.1
+  colorFrom: 8f8d87
+  colorTo: 6b6a66
+  lifetime: 20
+}
+requirements: [
+  nails/1
+  copper/15
+  scrap/5
+  lead/5
+]

@@ -1,0 +1,17 @@
+type: WallCrafter
+name: lava mining drill
+description: Mines scrap walls for materials
+size: 2
+category: production
+research: main-core
+requirements: [
+  scrap/20
+  nails/5
+]
+drillTime: 180
+output: hot-sand
+attribute: hot-sand
+ambientSound: drill
+ambientSoundVolume: 0.08
+alwaysUnlocked: true
+squareSprite: false

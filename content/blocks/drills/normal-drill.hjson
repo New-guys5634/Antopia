@@ -1,0 +1,25 @@
+name: basic drill
+description: drills into the ground and releases stone and copper
+type: Separator
+health: 120
+size: 2
+craftTime: 60
+hasItems: true
+hasLiquids: false
+consumes: {
+}
+requirements: [
+  nails/3
+  copper/8
+]
+category: production
+results: [
+  stone/1
+  copper/1
+]
+research: main-core 
+researchcost: [
+    research-plans/1
+    copper/15
+    lead/10
+]
