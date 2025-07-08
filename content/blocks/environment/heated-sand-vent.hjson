@@ -1,0 +1,10 @@
+name: heated vent
+variants: 0
+type: SteamVent
+blendGroup: heated-sand
+parent: heated-sand
+effect: ventSteam
+effectColor: ag2a0g
+attributes: {
+   steam: 2
+}

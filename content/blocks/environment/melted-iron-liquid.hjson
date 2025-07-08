@@ -1,0 +1,12 @@
+name: melted iron
+type: Floor
+variants: 0
+
+isLiquid: true
+liquidDrop: melted-iron
+
+status: explosive 
+statusDuration: 300
+speedMultiplier: 0.7
+drownTime: 90
+cacheLayer: slag

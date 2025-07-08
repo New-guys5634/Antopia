@@ -1,0 +1,4 @@
+name: raw obsidian 
+type: OreBlock
+variants: 0
+itemDrop: "raw-obsidian"

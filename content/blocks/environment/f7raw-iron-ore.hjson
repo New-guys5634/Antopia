@@ -1,0 +1,4 @@
+name: raw iron
+type: OreBlock
+variants: 0
+itemDrop: "raw-iron"

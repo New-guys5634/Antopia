@@ -1,0 +1,10 @@
+name: stone vent
+variants: 0
+type: SteamVent
+blendGroup: dark-sand
+parent: dark-sand
+effect: ventSteam
+effectColor: a0a0af
+attributes: {
+   steam: 1
+}

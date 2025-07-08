@@ -1,0 +1,4 @@
+name: raw sand
+type: OreBlock
+variants: 0
+itemDrop: "raw-sand"

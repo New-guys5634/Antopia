@@ -1,0 +1,19 @@
+type: UnitFactory
+name: hive
+size: 2
+customShadow: true
+placeablePlayer: false
+drawTeamOverlay: false
+buildVisibility: editorOnly
+squareSprite: false
+unitCapModifier: 3
+health: 3500
+requirements: []
+plans: [
+  {
+    unit: sm-dd
+    requirements: []
+    time: 1100
+  }
+]
+consumes: {}

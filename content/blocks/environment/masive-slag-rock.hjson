@@ -1,0 +1,6 @@
+type: TallBlock
+name: massive slag rocks
+variants: 0
+clipSize: 128
+shadowAlpha: 0.1
+shadowOffset: -1.5

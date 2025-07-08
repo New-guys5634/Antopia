@@ -1,0 +1,4 @@
+name: hot sand
+type: OreBlock
+variants: 0
+itemDrop: "hot-sand"

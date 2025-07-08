@@ -1,0 +1,6 @@
+type: StaticWall
+variants: 0
+name: hot sand wall
+attributes: {
+  hot-sand: 1
+}

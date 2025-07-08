@@ -1,0 +1,4 @@
+name: metal tile
+type: OreBlock
+variants: 0
+itemDrop: "raw-scrap"

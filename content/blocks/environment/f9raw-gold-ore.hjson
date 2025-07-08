@@ -1,0 +1,4 @@
+name: raw gold
+type: OreBlock
+variants: 0
+itemDrop: "raw-gold"

@@ -1,0 +1,12 @@
+name: irradiated liquid
+type: Floor
+variants: 0
+
+isLiquid: true
+liquidDrop: hydrogen 
+
+status: corroded 
+statusDuration: 300
+speedMultiplier: 0.3
+drownTime: 30
+cacheLayer: water

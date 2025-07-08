@@ -1,0 +1,10 @@
+name: obsidian vent
+variants: 0
+type: SteamVent
+blendGroup: obsidian
+parent: obsidian
+effect: ventSteam
+effectColor: a0a0af
+attributes: {
+   steam: 2
+}

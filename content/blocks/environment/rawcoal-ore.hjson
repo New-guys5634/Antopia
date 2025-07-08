@@ -1,0 +1,4 @@
+name: raw coal
+type: OreBlock
+variants: 0
+itemDrop: "raw-coal"

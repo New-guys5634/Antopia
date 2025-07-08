@@ -1,0 +1,4 @@
+name: lead
+type: OreBlock
+variants: 0
+itemDrop: "lead"

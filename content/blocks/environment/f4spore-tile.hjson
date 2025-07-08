@@ -1,0 +1,4 @@
+name: spore tile
+type: OreBlock
+variants: 0
+itemDrop: "spore-pod"

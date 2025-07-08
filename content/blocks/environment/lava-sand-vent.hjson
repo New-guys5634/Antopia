@@ -1,0 +1,10 @@
+name: lava sand vent
+variants: 0
+type: SteamVent
+blendGroup: lava-sand
+parent: lava-sand
+effect: ventSteam
+effectColor: gf0000
+attributes: {
+   steam: 4
+}

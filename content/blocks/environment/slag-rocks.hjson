@@ -1,0 +1,6 @@
+type: TallBlock
+name: slag rocks
+variants: 2
+clipSize: 96
+shadowAlpha: 0.1
+shadowOffset: -1.5

@@ -1,0 +1,12 @@
+name: obsidian liquid 
+type: Floor
+variants: 0
+
+isLiquid: true
+liquidDrop: hydrogen 
+
+status: tarred
+statusDuration: 300
+speedMultiplier: 0.7
+drownTime: 90
+cacheLayer: water
