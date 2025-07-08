@@ -1,0 +1,17 @@
+    localizedName: volcanic ash
+    description: your base told you of an outpost location go there destroy it beware the green is taking revenge use T1's or T2's to destroy the outpost
+    sector: 5,
+    planet: "lava-planet",
+    captureWave: "20",
+    research: {
+        parent: "cavern attack",
+        objectives: [
+            {
+                type: "SectorComplete",
+                preset: "cavern attack"
+            }
+        ]
+     }
+    difficulty: 4,
+    overrideLaunchDefaults: false
+    addStartingItems: false

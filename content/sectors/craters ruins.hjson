@@ -1,0 +1,17 @@
+    localizedName: craters ruins
+    description: next to the lab was a ruined place go there and deffend the medium sector use T1 tanks to help you with the boss.
+    sector: 10,
+    planet: "lava-planet",
+    captureWave: 25
+    research: {
+        parent: "abandoned metal lab",
+        objectives: [
+            {
+                type: "SectorComplete",
+                preset: "abandoned metal lab"
+            }
+        ]
+     }
+    difficulty: 3,
+    overrideLaunchDefaults: false
+    addStartingItems: true

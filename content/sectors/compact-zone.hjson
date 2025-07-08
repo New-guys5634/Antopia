@@ -1,0 +1,9 @@
+localizedName: compact zone
+description: a new beginning on this planet a enemy base was located on this sector destroy the base with the T1 mechs.
+sector: 0
+planet: lava-planet
+research: {
+   parent: main-core
+}
+alwaysunlock: true
+difficulty: 1

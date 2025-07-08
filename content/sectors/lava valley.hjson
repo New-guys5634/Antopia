@@ -1,0 +1,17 @@
+    localizedName: lava valley
+    description: after the trees your squad told you that you that there is a strange sector capture it.
+    sector: 1,
+    planet: "lava-planet",
+    captureWave: 20
+    research: {
+        parent: "lava deep ends",
+        objectives: [
+            {
+                type: "SectorComplete",
+                preset: "lava deep ends"
+            }
+        ]
+     }
+    difficulty: 4,
+    overrideLaunchDefaults: false
+    addStartingItems: false

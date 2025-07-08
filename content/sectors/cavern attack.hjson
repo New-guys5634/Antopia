@@ -1,0 +1,17 @@
+    localizedName: cavern attack
+    description: going up the caverns there's a attack survive it and beware there's a T3 tank use small units to destroy the enemy units 
+    sector: 16,
+    planet: "lava-planet",
+    captureWave: "25",
+    research: {
+        parent: "upward cavern",
+        objectives: [
+            {
+                type: "SectorComplete",
+                preset: "upward cavern"
+            }
+        ]
+     }
+    difficulty: 4,
+    overrideLaunchDefaults: false
+    addStartingItems: false

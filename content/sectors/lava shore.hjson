@@ -1,0 +1,17 @@
+    localizedName: lava shore
+    description: at the shores that is near your small outpost beware that this will send a powerful T2 blast at you use T1 mechs if needed.
+    sector: 14,
+    planet: "lava-planet",
+    captureWave: 20
+    research: {
+        parent: "mountianiac",
+        objectives: [
+            {
+                type: "SectorComplete",
+                preset: "mountianiac"
+            }
+        ]
+     }
+    difficulty: 2,
+    overrideLaunchDefaults: false
+    addStartingItems: false

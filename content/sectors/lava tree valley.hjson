@@ -1,0 +1,17 @@
+    localizedName: lava tree valley 
+    description: bellow the zone there's a strange sector use T1 mechs to take out the small base.
+    sector: 13
+    planet: "lava-planet",
+    captureWave: 10
+    research: {
+        parent: "lava shore",
+        objectives: [
+            {
+                type: "SectorComplete",
+                preset: "lava shore"
+            }
+        ]
+     }
+    difficulty: 1,
+    overrideLaunchDefaults: false
+    addStartingItems: false

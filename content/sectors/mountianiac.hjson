@@ -1,0 +1,17 @@
+    localizedName: mountianiac 
+    description: the second located sector beware and use T1 mechs to handle the swarms of survival mechs.
+    sector: 15,
+    planet: "lava-planet",
+    captureWave: 15
+    research: {
+        parent: "compact-zone",
+        objectives: [
+            {
+                type: "SectorComplete",
+                preset: "compact-zone"
+            }
+        ]
+     }
+    difficulty: 1 
+    overrideLaunchDefaults: false
+    addStartingItems: false

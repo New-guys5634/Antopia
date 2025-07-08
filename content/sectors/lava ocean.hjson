@@ -1,0 +1,17 @@
+    localizedName: lava ocean
+    description: going further of the shores meet the ocean of lava capture this sector and use T1 flyers and tanks if needed.
+    sector: 22,
+    planet: "lava-planet",
+    captureWave: 30
+    research: {
+        parent: "craters ruins",
+        objectives: [
+            {
+                type: "SectorComplete",
+                preset: "craters ruins"
+            }
+        ]
+     }
+    difficulty: 3,
+    overrideLaunchDefaults: false
+    addStartingItems: true

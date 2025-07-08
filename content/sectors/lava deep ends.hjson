@@ -1,0 +1,17 @@
+    localizedName: lava deep ends
+    description: your base told you of an destroyed luanch pod land there and read it
+    sector: 12,
+    planet: "lava-planet",
+    captureWave: 20
+    research: {
+        parent: "lava tree valley",
+        objectives: [
+            {
+                type: "SectorComplete",
+                preset: "lava tree valley"
+            }
+        ]
+     }
+    difficulty: 1,
+    overrideLaunchDefaults: false
+    addStartingItems: false

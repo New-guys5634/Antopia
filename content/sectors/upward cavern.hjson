@@ -1,0 +1,16 @@
+    localizedName: upward cavern
+    description: upward a caves there's a base use T1 flyers for an ambush.
+    sector: 6,
+    planet: "lava-planet",
+    research: {
+        parent: "lava cross overs",
+        objectives: [
+            {
+                type: "SectorComplete",
+                preset: "lava cross overs"
+            }
+        ]
+     }
+    difficulty: 4,
+    overrideLaunchDefaults: false
+    addStartingItems: false

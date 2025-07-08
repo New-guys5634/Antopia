@@ -1,0 +1,17 @@
+    localizedName: lava cross overs 
+    description: after the event this sector remains with some special resources..
+    sector: 28,
+    planet: "lava-planet",
+    captureWave: 20
+    research: {
+        parent: "melted arenas",
+        objectives: [
+            {
+                type: "SectorComplete",
+                preset: "melted arenas"
+            }
+        ]
+     }
+    difficulty: 3,
+    overrideLaunchDefaults: false
+    addStartingItems: false

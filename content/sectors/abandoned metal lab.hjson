@@ -1,0 +1,17 @@
+    localizedName: abandoned metal lab
+    description: after lava shore there's an extra route for research purposes that's was abandoned.
+    sector: 24,
+    planet: "lava-planet",
+    captureWave: 20
+    research: {
+        parent: "upward cavern",
+        objectives: [
+            {
+                type: "SectorComplete",
+                preset: "upward cavern"
+            }
+        ]
+     }
+    difficulty: 6,
+    overrideLaunchDefaults: false
+    addStartingItems: false

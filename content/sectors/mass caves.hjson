@@ -1,0 +1,17 @@
+    localizedName: mass caverns 
+    description: the strangest sector yet...
+    sector: 3,
+    planet: "lava-planet",
+    captureWave: 2
+    research: {
+        parent: "obsidian ruins",
+        objectives: [
+            {
+                type: "SectorComplete",
+                preset: "obsidian ruins"
+            }
+        ]
+     }
+    difficulty: 6,
+    overrideLaunchDefaults: false
+    addStartingItems: false

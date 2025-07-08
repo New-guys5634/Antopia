@@ -1,0 +1,17 @@
+    localizedName: obsidian ruins
+    description: in the ruins is a huge cluster of obsidian beware...
+    sector: 26,
+    planet: "lava-planet",
+    captureWave: 20
+    research: {
+        parent: "lava ocean",
+        objectives: [
+            {
+                type: "SectorComplete",
+                preset: "lava ocean"
+            }
+        ]
+     }
+    difficulty: 4,
+    overrideLaunchDefaults: false
+    addStartingItems: true

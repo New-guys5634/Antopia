@@ -1,0 +1,17 @@
+    localizedName: melted arenas
+    description: after the chaos your squad gave you a free sector location but the enemies has set a trap beware
+    sector: 9,
+    planet: "lava-planet",
+    captureWave: 25
+    research: {
+        parent: "lava valley",
+        objectives: [
+            {
+                type: "SectorComplete",
+                preset: "lava valley"
+            }
+        ]
+     }
+    difficulty: 4,
+    overrideLaunchDefaults: false
+    addStartingItems: false
