@@ -1,0 +1,44 @@
+type: ConsumeGenerator
+name: flame crudibal
+description: burns items to well create power.
+size: 1
+category: power
+research: {
+  parent: main-core
+  objectives: [
+    {
+      type: OnSector
+      preset: lava valley
+    }
+  ]
+}
+squareSprite: true
+requirements: [
+  nails/10
+  lead/30
+  metal/5
+]
+consumes: {
+  itemFlammable: {}
+}
+powerProduction: 0.7
+itemDuration: 160
+generateEffect: generatespark
+ambientSound: smelter
+ambientSoundVolume: 0.03
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawCrucibleFlame
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+} 
+researchCostMultiplier: 0.5

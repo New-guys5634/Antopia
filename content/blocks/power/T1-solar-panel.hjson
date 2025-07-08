@@ -1,0 +1,29 @@
+name: T1 panel
+description: creates power from the sun very strong since planet near thr sun
+type: SolarGenerator
+powerProduction: 1.5
+size: 1
+health: 50
+requirements: [
+    scrap/3
+    glass/1
+    nails/2
+    stone/5
+]
+category: power
+research: {
+  parent: raw-coal-burner
+  objectives: [
+    {
+      type: OnSector
+      preset: craters ruins
+    }
+  ]
+}
+researchCost: [
+   metal/5
+   glass/2
+   nails/4
+   lead/15
+   research-plans/1
+]

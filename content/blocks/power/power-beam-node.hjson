@@ -1,0 +1,26 @@
+name: power node
+description: transfers power
+type: BeamNode
+  
+hasPower: true
+hasItems: false
+hasLiquids: false
+
+health: 20
+size: 1
+requirements: [
+    lead/4
+    metal/2
+    copper/1
+    nails/1
+ ]
+range: 8
+category: power
+research: raw-coal-burner
+researchCost: [
+  metal/1
+  nails/2
+  lead/3
+  copper/3
+  research-plans/1
+]
