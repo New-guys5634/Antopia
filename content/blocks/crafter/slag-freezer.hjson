@@ -24,10 +24,6 @@ drawer: {
       suffix: -bottom
     }
     {
-      type: DrawRegion
-      suffix: -sieve
-    }
-    {
       type: DrawLiquidTile
       drawLiquid: slag
       padding: 1.5
