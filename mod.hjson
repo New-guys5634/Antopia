@@ -1,25 +1,22 @@
 name: "delight"
 description: 
 ''' 
-THESE ARE LEGACY MODS they are not cannon in any way
-
-legacy mission Antopia:
-The new revelation is here. kearth is lost... no way we are getting it back.
-the conquest has started. Tensions blew and his leading sergeant of the crux empire places (you) as field commander of this bloody war.
-Antopia the once lush planet filled with life. killed my explanation of resources and manipulated landscapes.
-during the first war, the soil was manipulated for chemical warfare, forests were burned where burned where enemies were held and mountains were blown up to stop enemy advance. Life could not keep up and fizzled and... turned into the fallout...
-doesn't require multi craft lib...
-read readme to figure out what happened.
-Caverns nightmares legacy:
-  A new mod series this will be the first planet out of 3 this mod adds a new planet that is erikers moon! this mod ain't easy it's very hard there are also 15 main sectors so this will be a long experience and these sectors are list to change
+mission Antopia:
+The lost antopia drifts slowly around the sun, the finale part is here.
+antopia description: 
+Lost destroyed planet, due to the crux discovering spores a research team on antopia decided to manufacture a bio fungus type spore but like serpulo something bad happened the bio fungus leaked out and destroyed everything on the planet few millenniums later the bio fungus has faded away leaving nothing behind, YOUR mission is to fight the crux empire that's left on antopia and finally take down the sergeant: Clocksmox
+...
+Caverns nightmares :
+  A new mod series this will be the first planet out of 5 this mod adds a new planet that is erikers moon! this mod ain't easy it's very hard there are also 15 main sectors so this will be a long experience and these sectors are list to change
 
 
 planet description: a hot planet near the sun with waistlands of heated sand/lava sand, due to hot temperatures it's nearly impossible to survive on the outside so your squad decided to drill into the ground to mine and survive but turns out there's two factions that want you gone while list fighting eachother.
 
+NOTE: caverns nightmares is officially part 0 in the series.
 The chaos is in your hands what will you do with it?...
 '''
-author: "Rustedbeee and logic xb5611"
-minGameVersion: 145
+author: "Rustedbeee"
+minGameVersion: 146
 version: "0.1 alfa"
 displayName: "Mission: Antopia"
-subtitle: "[[]#47CE88FF]Will be receiving a rework"
+subtitle: "[[]#47CE88FF]The finale destination"
