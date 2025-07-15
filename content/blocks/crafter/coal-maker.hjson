@@ -1,5 +1,5 @@
-description: freezes the raw coal and convrets it into coal
-name: coalifier
+description: Freezes the raw coal and convrets it into coal.
+name: Coalifier
 type: GenericCrafter
 size: 1
 health: 185

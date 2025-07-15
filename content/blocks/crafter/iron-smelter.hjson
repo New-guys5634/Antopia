@@ -1,5 +1,5 @@
-description: melts raw iron into fine iron
-name: iron smelter
+description: Melts raw iron into fine iron.
+name: Iron Smelter
 type: GenericCrafter
 size: 2
 health: 140

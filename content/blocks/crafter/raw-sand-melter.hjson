@@ -1,5 +1,5 @@
-description: melts raw coal or sand into coal and sand
-name: melter
+description: Melts raw coal or sand into coal and sand.
+name: Raw sand melter
 type: GenericCrafter
 size: 2
 health: 185

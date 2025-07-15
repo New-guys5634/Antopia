@@ -1,5 +1,5 @@
-description: forges clay and raw iron into steel
-name: steel forger
+description: Forges clay and raw iron into steel.
+name: Steel Forger
 type: GenericCrafter
 size: 2
 health: 230

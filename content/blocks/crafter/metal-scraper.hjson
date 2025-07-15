@@ -1,5 +1,5 @@
-description: forges metal out of scraps and spore pods
-name: metal forge
+description: Forges metal out of scraps and spore pods.
+name: Metal Forge
 type: GenericCrafter
 size: 2
 health: 185

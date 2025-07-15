@@ -1,5 +1,5 @@
-description: outputs plans out of scrap,nails,lead,copper
-name: research maker
+description: Outputs plans out of scrap,nails,lead,copper.
+name: Research Maker
 type: GenericCrafter
 size: 2
 health: 435

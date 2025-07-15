@@ -1,5 +1,5 @@
-name: glass fabictor
-description: creates glass
+name: Glass Fabictor
+description: Creates glass from types of sands.
 type: GenericCrafter
 size: 2
 health: 255

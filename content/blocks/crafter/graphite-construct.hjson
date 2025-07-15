@@ -1,5 +1,5 @@
-name: graphite construct
-description: crafts graphite out of stone and raw coal
+name: Graphite Construct
+description: Crafts graphite out of stone and raw coal.
 type: GenericCrafter
 size: 3
 health: 600

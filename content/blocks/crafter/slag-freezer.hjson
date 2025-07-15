@@ -1,6 +1,6 @@
 type: GenericCrafter
-name: slag cooler
-description: cools down slag to turn it into water
+name: Slag Cooler
+description: Cools down slag to turn it into water.
 size: 2
 hasLiquids: true
 squareSprite: true

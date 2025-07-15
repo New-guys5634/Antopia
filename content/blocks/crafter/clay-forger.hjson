@@ -1,5 +1,5 @@
-description: forges raw obsidian and sand into fine clay
-name: clay forger
+description: Forges raw obsidian and sand into fine clay.
+name: Clay Forger
 type: GenericCrafter
 size: 2
 health: 190

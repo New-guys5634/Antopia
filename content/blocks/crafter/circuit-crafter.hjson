@@ -1,5 +1,5 @@
-description: forges raw gold and other substances into circuits.
-name: circuit crafter
+description: Forges raw gold and other substances into circuits.
+name: Circuit Crafter
 type: GenericCrafter
 size: 2
 health: 210
