@@ -1,14 +1,14 @@
 type: Drill
 drillTime: 350
-name: Magnet punatic drill
-description: wip
+name: Magnet Punatic Drill
+description: A expensive drill that takes nitrogen to mine.
 size: 3
 category: production
 hasLiquids: true
 liquidCapacity: 50
 drawMineItem: false
 consumes: {
-  liquid: nitrogen/0.3
+  liquid: nitrogen/0.6
 }
 hasPower: false
 tier: 3
