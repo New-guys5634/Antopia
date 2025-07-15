@@ -1,5 +1,5 @@
 name: Dulratite electronic duct
-description: Antopias most annoying thing
+description: Uses power for it to work.
 type: Duct
   powerProduction: 0.0150
 consumes: {

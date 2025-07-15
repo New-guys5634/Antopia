@@ -1,12 +1,12 @@
 type: Router
 name: Big router
-description: same as router but bigger
+description: Same as router but larger.
 size: 2
 speed: 4
 health: 25
 itemCapacity: 5
 requirements: [
-smelted-dulratite/15
+smelted-dulratite/5
 ]
 squareSprite: false
 category: distribution
