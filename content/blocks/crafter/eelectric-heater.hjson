@@ -1,14 +1,14 @@
 type: HeatProducer
-name: Electric heater maker
-description: WIP
+name: Electric Heater Maker
+description: Takes electricity for the important heat.
 size: 2
 consumes: {
 power: 0.5
 }
 category: crafting
 requirements: [
-smelted-dulratite/100
-Glass-pane/25
+smelted-dulratite/125
+Glass-pane/75
 ]
 heatOutput: 2
 generateEffect: none

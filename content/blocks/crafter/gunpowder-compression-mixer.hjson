@@ -1,4 +1,5 @@
-name: gunpowder compression
+name: Gunpowder Compression
+description: Takes a large amount of sulfur and mud for Gunpowder.
 type: GenericCrafter
 size: 3
 health: 300

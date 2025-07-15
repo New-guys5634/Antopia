@@ -1,5 +1,5 @@
-description: WIP
-name: gear farbicator
+description: Takes dulratite and nitrogen for gears.
+name: Gear Farbicator
 type: HeatCrafter
 heatRequirement: 2
 size: 1
@@ -18,7 +18,7 @@ dulratite/2
   }
 }
 requirements: [
-smelted-dulratite/33
+smelted-dulratite/55
 ]
 category: crafting
 outputItem: gear/3

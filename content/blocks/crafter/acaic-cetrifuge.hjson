@@ -1,15 +1,15 @@
-description: WIP
-name: acaic cetrifuge
+description: Intakes acaic for bio fungus.
+name: Acaic Cetrifuge
 type: GenericCrafter
 size: 1
 health: 10
-craftTime: 700
+craftTime: 900
 hasItems: true
 hasLiquids: true
 hasPower: false
 itemCapacity: 20
 consumes: {       
-liquid: acaic/0.6
+liquid: acaic/3
 }
 requirements: [
 Glass-pane/200

@@ -17,7 +17,7 @@ lump-mud/2
   }
 }
 requirements: [
-smelted-dulratite/150
+smelted-dulratite/300
 ]
 category: crafting
 outputItem: iseases-gem/1

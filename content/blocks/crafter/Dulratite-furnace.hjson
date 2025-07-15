@@ -1,5 +1,5 @@
-description: WIP
-name: Dulratite furnace
+description: Intakes raw dulratite and sulfur for smelted dulratite.
+name: Dulratite Furnace
 type: GenericCrafter
 size: 3
 health: 300
