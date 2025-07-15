@@ -1,5 +1,5 @@
-name: scrap ducts
-description: transports item
+name: Scrap ducts
+description: Transports item from a far distance.
 type: StackConveyor
 
 

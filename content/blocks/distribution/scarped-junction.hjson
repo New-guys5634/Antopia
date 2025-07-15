@@ -1,5 +1,5 @@
-name: scrap junction
-description: moves items thought other conveyors
+name: Scrap Junction
+description: Moves items thought other conveyors.
 type: Junction
 health: 50
 speed: 2

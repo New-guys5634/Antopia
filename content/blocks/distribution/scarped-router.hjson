@@ -1,5 +1,5 @@
-name: scrap router
-description: splits items
+name: Scrap Router
+description: Splits items.
 type: Router
 health: 50
 speed: 2
