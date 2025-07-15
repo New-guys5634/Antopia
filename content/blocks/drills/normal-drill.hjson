@@ -1,5 +1,5 @@
-name: basic drill
-description: drills into the ground and releases stone and copper
+name: Basic Drill
+description: Drills into the ground and releases stone and copper.
 type: Separator
 health: 120
 size: 2

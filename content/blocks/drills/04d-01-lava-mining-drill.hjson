@@ -1,6 +1,6 @@
 type: WallCrafter
-name: lava mining drill
-description: Mines scrap walls for materials
+name: Lava Mining Drill
+description: Mines scrap walls for materials.
 size: 2
 category: production
 research: main-core

@@ -1,6 +1,6 @@
 type: BurstDrill
-name: T1 drill
-description: uses explosions to mine T1 ores
+name: T1 Drill
+description: Uses explosions to mine T1 ores.
 size: 1
 category: production
 hasLiquids: false
