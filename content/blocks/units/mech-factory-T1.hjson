@@ -20,7 +20,7 @@ plans: [
     requirements: [
    scrap/30
    nails/20
-   spore/40
+   spore-pod/40
    lead/30
     ]
   }
