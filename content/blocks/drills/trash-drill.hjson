@@ -1,5 +1,6 @@
 name:Starter Srill
 description: Drills into the ground for resources.
+type: BurstDrill
 size: 2
 category: production
 hasLiquids: false
