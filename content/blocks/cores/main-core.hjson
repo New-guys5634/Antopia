@@ -11,7 +11,7 @@ isFirstTier: true
 size: 2
 squareSprite: false
 alwaysUnlocked: true
-unitType: AK47
+unitType: AK-47
 health: 1750
 itemCapacity: 1300
 unitCapModifier: 7
