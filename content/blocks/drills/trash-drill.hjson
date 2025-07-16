@@ -1,0 +1,26 @@
+name:Starter Srill
+description: Drills into the ground for resources.
+size: 2
+category: production
+hasLiquids: false
+hardnessDrillMultiplier: 60
+drillTime: 200
+hasPower: false
+tier: 1
+shake: 0.5
+itemCapacity: 10
+researchCostMultiplier: .1
+drillEffect: {
+  type: WaveEffect
+  sizeFrom: 0.1
+  sizeTo: 5.6
+  strokeFrom: 0.8
+  strokeTo: 0.1
+  colorFrom: 8f8d87
+  colorTo: 6b6a66
+  lifetime: 20
+}
+requirements: [
+copper/25
+]
+research: main-core 
