@@ -29,15 +29,16 @@ weapons: [
   shootCone: 10
   shootSound: missileLarge
   inaccuracy: 3
-  reload: 26
+  reload: 60
   targetInterval: 1
   targetSwitchInterval: 3
   cooldownTime: 35 
   
   bullet: {
    type: BasicBulletType
-   splashDamage: 20
+   splashDamage: 40
    splashDamageRadius: 26
+   knockback: 6
    homingRange: 0.1
    homingPower: 1
    width: 6
@@ -62,7 +63,7 @@ weapons: [
               sizeFrom: 1
               sizeTo: 6
               colorFrom: 4E4E56FF
-              colorTo: 4E4E5647
+              colorTo: 4E4E5611
             }
             {
               type: ParticleEffect
@@ -74,7 +75,7 @@ weapons: [
               sizeFrom: 7
               sizeTo: 1
               colorFrom: 4E4E56FF
-              colorTo: 4E4E5647
+              colorTo: 4E4E5611
 }
 ]
 }
