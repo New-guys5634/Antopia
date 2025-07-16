@@ -2,10 +2,10 @@ type: CoreBlock
 name: main core
 description: The main core of the base once destroyed the sector is lost.
 requirements: [
-  lead/20
-  scrap/15
-  copper/80
-  nails/15
+  lead/200
+  scrap/150
+  copper/800
+  nails/150
 ]
 isFirstTier: true
 size: 2
