@@ -1,0 +1,59 @@
+name: Rocket mech
+description: A specialist mech used for rocket destruction.
+type: mech
+mechLegColor: 1f1f1f
+
+health: 200
+armor: 5
+hitSize: 8
+speed: .8
+rotateSpeed: 1.3
+accel: 0.70
+
+itemCapacity: 10
+outlineColor: 000000
+
+weapons: [
+ {
+  type: Weapon
+  name: T1-mech-rocket-wepon
+  
+  top: false
+  x: 0
+  y: 2
+  shootY: 8
+  shootX: 6
+  
+  mirror: true
+  rotate: false
+  shootCone: 10
+  shootSound: missileLarge
+  inaccuracy: 3
+  reload: 26
+  targetInterval: 1
+  targetSwitchInterval: 3
+  cooldownTime: 35 
+  
+  bullet: {
+   type: BasicBulletType
+   splashDamage: 20
+   splashDamageRadius: 26
+   homingRange: 0.1
+   homingPower: 1
+   width: 6
+   height: 8
+   
+   damage: 2
+   
+   speed: 3.5
+   lifetime: 45.5
+   
+   trailWidth: 2
+   trailLength: 8
+   }
+  }
+ ]
+
+
+research: mech-factory-T1
+researchCostMultiplier: 1
