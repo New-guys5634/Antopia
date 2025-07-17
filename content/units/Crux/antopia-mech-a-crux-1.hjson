@@ -10,8 +10,8 @@ mechLegColor: 1f1f1f
 health: 500
 armor: 4
 hitSize: 8
-speed: .9
-rotateSpeed: 0.8
+speed: 3
+rotateSpeed: 3
 accel: 0.70
 itemCapacity: 20
 useEngineElevation: false
@@ -28,7 +28,7 @@ trailLength: 6
 engines: [
   {
     x: 0
-    y: -8
+    y: -6
     radius: 1.5
   }
 ]
