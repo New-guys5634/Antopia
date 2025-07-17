@@ -58,12 +58,12 @@ weapons: [
    type: BasicBulletType
    homingPower: 0.4
    homingRange: 100
-   width: 10
+   width: 15
    height: 10
    damage: 40
    speed: 4
    lifetime: 60
-   trailWidth: 1
+   trailWidth: 4
    trailLength: 12
 frontColor: F1EA78FF
 backColor: F1EA7847
