@@ -1,0 +1,211 @@
+name: Troop
+description: "
+Positive:
+Fast and agile, has two blasters which fire two energy projectiles and has a core blaster which stuns the mech it self and pushes it self back and the projectile deals high damage which knock backs opponents. Has high health and decent armour.
+
+Negatives: 
+Has a weekness with rotate speed and is decent against single but if the single enemie is strong it will struggle."
+type: mech
+mechLegColor: 1f1f1f
+health: 500
+armor: 4
+hitSize: 8
+speed: .9
+rotateSpeed: 0.8
+accel: 0.70
+itemCapacity: 20
+useEngineElevation: false
+lowAltitude: true
+groundLayer: 60
+hovering: true
+hoverable: true
+shadowElevation: 0.1
+mechFrontSway: 0
+mechSideSway: 0
+mechStride: 0
+drag: 0.04
+trailLength: 6 
+engines: [
+  {
+    x: 0
+    y: -8
+    radius: 1.5
+  }
+]
+weapons: [
+{
+  name: antopia-mech-a-crux-1-blaster
+  top: false
+  x: 0
+  y: 0
+  shootY: 4
+  shootX: 8
+  mirror: true
+  rotate: false
+  shootCone: 10
+  shootSound: bolt
+  inaccuracy: 9
+  reload: 60
+  targetInterval: 1
+  targetSwitchInterval: 3
+  cooldownTime: 35 
+  shoot: {
+  type: ShootSpread
+  spread: 1
+  shots: 2
+  }
+  bullet: {
+   type: BasicBulletType
+   homingPower: 0.4
+   homingRange: 100
+   width: 10
+   height: 10
+   damage: 40
+   speed: 4
+   lifetime: 60
+   trailWidth: 1
+   trailLength: 12
+frontColor: F1EA78FF
+backColor: F1EA7847
+   trailColor: F1EA78FF
+        shootEffect: {
+          type: MultiEffect
+          effects: [
+            shootSmallColor
+            {
+              type: ParticleEffect
+              interp: pow10Out
+              lifetime: 180
+              startDelay: 0
+              region: delight-shadow
+              layer: 86
+              particles: 9
+              followParent: false
+              rotWithParent: false
+              useRotation: true
+              colorFrom: ffffff60
+              colorTo: ffffff00
+              lightScl: 2
+              lightOpacity: 0
+              baseRotation: 0
+              offset: 0
+              cone: 30
+              spin: 0
+              randLength: true
+              length: 16
+              baseLength: 0
+              line: false
+              sizeInterp: pow2Out
+              sizeFrom: 1
+              sizeTo: 5
+              strokeFrom: 0
+              strokeTo: 0
+              lenFrom: 0
+              lenTo: 0
+      }
+   ]
+}
+   }
+  }
+{
+  name: antopia-mech-a-crux-1-core-blaster
+  top: false
+  x: 0
+  y: 0
+  shootY: 2
+  shootX: 0
+  mirror: false
+  rotate: false
+  shootCone: 10
+  shootSound: release
+  inaccuracy: 9
+  recoil: 0
+  reload: 350
+  targetInterval: 1
+  targetSwitchInterval: 3
+  cooldownTime: 35 
+  bullet: {
+   type: BasicBulletType
+  recoil: 9
+   homingPower: 0.4
+   homingRange: 100
+   width: 10
+   height: 10
+   splashDamage: 200
+   splashDamageRadius: 4
+   knockback: 9
+   speed: 1
+   lifetime: 120
+   trailWidth: 1
+   trailLength: 12
+frontColor: F25455FF
+backColor: F2545547
+   trailColor: F25455FF
+        hitEffect: {
+          type: multiEffect
+          effects: [
+            {
+              type: ParticleEffect
+              particles: 6
+              lifetime: 260
+              length: 90
+              lightColor: F25455FF
+              sizeFrom: 1
+              sizeTo: 6
+              colorFrom: F25455FF
+              colorTo: FDFDFD01
+            }
+            {
+              type: ParticleEffect
+              lightOpacity: 0
+              particles: 15
+              length: 45
+              baseLength: 10
+              lifetime: 270
+              sizeFrom: 7
+              sizeTo: 1
+              colorFrom: F25455FF
+              colorTo: F2545501
+}
+]
+}
+        shootEffect: {
+          type: MultiEffect
+          effects: [
+            shootSmallColor
+            {
+              type: ParticleEffect
+              interp: pow10Out
+              lifetime: 180
+              startDelay: 0
+              region: delight-shadow
+              layer: 86
+              particles: 9
+              followParent: false
+              rotWithParent: false
+              useRotation: true
+              colorFrom: ffffff60
+              colorTo: ffffff00
+              lightScl: 2
+              lightOpacity: 0
+              baseRotation: 0
+              offset: 0
+              cone: 30
+              spin: 0
+              randLength: true
+              length: 16
+              baseLength: 0
+              line: false
+              sizeInterp: pow2Out
+              sizeFrom: 1
+              sizeTo: 5
+              strokeFrom: 0
+              strokeTo: 0
+              lenFrom: 0
+              lenTo: 0
+      }
+   ]
+   }
+   }
+  }
+]
