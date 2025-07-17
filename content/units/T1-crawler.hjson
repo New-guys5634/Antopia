@@ -40,7 +40,35 @@ weapons: [
      type: LaserBulletType
      length: 30
      colors: [fag020 faga02 ffffff]
-     damage: 30
+     damage: 90
+        hitEffect: {
+          type: multiEffect
+          effects: [
+            {
+              type: ParticleEffect
+              particles: 6
+              lifetime: 260
+              length: 90
+              lightColor: 4E4E56FF
+              sizeFrom: 1
+              sizeTo: 6
+              colorFrom: 4E4E56FF
+              colorTo: 4E4E5611
+            }
+            {
+              type: ParticleEffect
+              lightOpacity: 0
+              particles: 15
+              length: 45
+              baseLength: 10
+              lifetime: 270
+              sizeFrom: 7
+              sizeTo: 1
+              colorFrom: 4E4E56FF
+              colorTo: 4E4E5611
+}
+]
+}
    }
  }
  }
