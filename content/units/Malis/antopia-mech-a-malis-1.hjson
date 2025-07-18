@@ -1,0 +1,115 @@
+name: Agent
+description: "
+Positive:
+Slow and tanky, has a simple rocket launcher, it deals medium damage but acts like a crowd controller, the HP is mediocre but has decent armour.
+
+Negatives: 
+Has a weekness with general speed."
+type: mech
+mechLegColor: 1f1f1f
+health: 300
+armor: 3
+hitSize: 8
+speed: 0.8
+rotateSpeed: 3
+accel: 0.70
+itemCapacity: 20
+useEngineElevation: false
+lowAltitude: true
+groundLayer: 60
+hovering: true
+hoverable: true
+shadowElevation: 0.1
+mechFrontSway: 0
+mechSideSway: 0
+mechStride: 0
+drag: 0.04
+trailLength: 6 
+engines: [
+  {
+    x: 0
+    y: -6
+    radius: 1.5
+  }
+]
+weapons: [
+{
+  name: antopia-mech-a-malis-1-rocket
+  top: false
+  x: 0
+  y: 0
+  shootY: 2
+  shootX: 0
+  mirror: true
+  rotate: false
+  shootCone: 10
+  shootSound: missileLarge
+  inaccuracy: 9
+  reload: 100
+  targetInterval: 1
+  targetSwitchInterval: 3
+  cooldownTime: 35 
+  shoot: {
+  type: ShootSpread
+  spread: 3
+  shots: 6
+  }
+  bullet: {
+   type: BasicBulletType
+   homingPower: 0.1
+   homingRange: 100
+   width: 15
+   height: 10
+    splashDamage: 20
+   splashDamageRadius: 10
+   speed: 4
+   lifetime: 60
+   trailWidth: 4
+   trailLength: 12
+      weaveMag: 3
+      weaveScale: 5
+      weaveRandom: true
+frontColor: 60615BFF
+backColor: 60615BFF
+   trailColor: 60615BFF
+        shootEffect: {
+          type: MultiEffect
+          effects: [
+            shootSmallColor
+            {
+              type: ParticleEffect
+              interp: pow10Out
+              lifetime: 180
+              startDelay: 0
+              region: delight-shadow
+              layer: 86
+              particles: 9
+              followParent: false
+              rotWithParent: false
+              useRotation: true
+              colorFrom: ffffff60
+              colorTo: ffffff00
+              lightScl: 2
+              lightOpacity: 0
+              baseRotation: 0
+              offset: 0
+              cone: 30
+              spin: 0
+              randLength: true
+              length: 16
+              baseLength: 0
+              line: false
+              sizeInterp: pow2Out
+              sizeFrom: 1
+              sizeTo: 5
+              strokeFrom: 0
+              strokeTo: 0
+              lenFrom: 0
+              lenTo: 0
+      }
+   ]
+}
+   }
+  }
+]
+ 
