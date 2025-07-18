@@ -55,7 +55,7 @@ weapons: [
   shots: 6
   }
   bullet: {
-   type: BasicBulletType
+   type: MissileBulletType
    homingPower: 0.1
    homingRange: 100
    width: 15
