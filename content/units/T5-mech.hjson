@@ -21,19 +21,19 @@ weapons: [
   x: 20
   y: 0
   shootY: 0
-  shootX: 20
+  shootX: 14
   
   mirror: true
-  rotate: false
+  rotate: true
   shootCone: 10
   shootSound: bolt
-  inaccuracy: 3
+  inaccuracy: 8
   reload: 4
   targetInterval: 1
   targetSwitchInterval: 3
   cooldownTime: 35 
   shoot: {
-  FirstShotDelay: 50
+  FirstShotDelay: 80
   }
   bullet: {
    type: BasicBulletType
