@@ -16,7 +16,7 @@ research: {
 hardnessDrillMultiplier: 85
 drillTime: 130
 hasPower: false
-tier: 1
+tier: 2
 shake: 0.5
 itemCapacity: 20
 researchCostMultiplier: .5
